@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "eee548cbc0be12d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "eef8455fa966df96",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7bda5c97038ff434",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "航天青岛问题反馈.canvas",
+                "viewState": {
+                  "x": -934.6588629008851,
+                  "y": -2515.65016313041,
+                  "zoom": -0.333333333333333
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d7cfedf6b5ca52d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "d12e1f773565c502",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "980e21d729854bd7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ea29c9da4173aeb1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bb7c3cd9b539075f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6b24aed06d6c8a1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "151aaad0acb4553b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "803073740f754f82",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "航天青岛问题反馈.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "76186c7eff6fc63e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "航天青岛问题反馈.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4f58071e16668994",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d969e7ab05096243",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "航天青岛问题反馈.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "980e21d729854bd7",
+  "lastOpenFiles": [
+    "assest/Pasted image 20240711195526.png",
+    "assest/Pasted image 20240711172529.png",
+    "科大.canvas",
+    "航天青岛问题反馈.canvas",
+    "canvas/东风延擎.canvas",
+    "canvas/assest/Pasted image 20240710172906.png",
+    "canvas/assest",
+    "assest",
+    "canvas",
+    "2024-07-10.md",
+    "Pasted image 20240710172613.png",
+    "Pasted image 20240710172544.png",
+    "Welcome.md"
+  ]
+}

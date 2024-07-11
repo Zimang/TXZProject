@@ -1,0 +1,7 @@
+{
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "newFileFolderPath": "assest",
+  "attachmentFolderPath": "./assest",
+  "newLinkFormat": "relative"
+}
