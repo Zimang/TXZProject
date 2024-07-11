@@ -15,8 +15,8 @@
               "state": {
                 "file": "航天青岛问题反馈.canvas",
                 "viewState": {
-                  "x": -934.6588629008851,
-                  "y": -2398.4775054901866,
+                  "x": -1229.9843493062956,
+                  "y": -2516.154162310159,
                   "zoom": -0.333333333333333
                 }
               }
@@ -72,7 +72,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6b24aed06d6c8a1f",
@@ -132,7 +133,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -149,7 +151,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "803073740f754f82",
+  "active": "7bda5c97038ff434",
   "lastOpenFiles": [
     "assest/Pasted image 20240711195526.png",
     "assest/Pasted image 20240711172529.png",
