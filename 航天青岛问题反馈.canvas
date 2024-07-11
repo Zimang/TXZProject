@@ -55,9 +55,11 @@
 		{"id":"a08944d81d0008d0","type":"text","text":"**3**\n\n\n问题描述：语音输入“提醒我<日期时间><事件>”或语音输入“<日期时间>提醒我<事件>”，提示“暂不支持该操作”","x":-1560,"y":-2380,"width":360,"height":202},
 		{"id":"e91eaa5ae012fe6f","type":"text","text":"**6** \n前提条件：蓝牙连接\n步骤：\n1、唤醒语音助手语音输入“给xx（一个联系人多个号码）打电话”\n2、弹出选项后语音输入“<号码末四位>结尾；<号码前三位>开头； ”\n预期结果：可以根据输入内容执行电话号码筛选呼叫\n实际结果：不识别这两个指令","x":-1560,"y":-1840,"width":360,"height":280},
 		{"id":"6c0449a2bd8d288e","type":"text","text":"**7**\n前提条件：蓝牙音乐播放中\n步骤：\n1、语音“打开视频”\n预期结果：进入视频列表界面，蓝牙音乐退出播放\n实际结果：进入视频列表界面，蓝牙音乐继续播放\n问题分析：`CarAudioFocus: Evaluating GAIN_TRANSIENT request for client android.media.AudioManager@5fd8adfcom.txznet.txz.module.O0000oO.O000000o.O00000o0$O000000o@4be432c, package=com.txznet.txz, usage=1`\n语音申请的streamtype是media，使用不正确，需要三方修改","x":-1560,"y":-1480,"width":360,"height":300},
-		{"id":"4ec688328320ebf7","type":"text","text":"","x":-1120,"y":-2660,"width":250,"height":60}
+		{"id":"4ec688328320ebf7","type":"text","text":"1. 难以识别打开技能卡片\n2. 不知道技能卡片包名","x":-1160,"y":-2600,"width":250,"height":100},
+		{"id":"1c2bc60611cd069f","x":-840,"y":-2640,"width":250,"height":180,"type":"text","text":"1. fictiousName\n2. 新建协议\n3. 打开包名"}
 	],
 	"edges":[
-		{"id":"3c7b64a534e0b4b3","fromNode":"f08215b54abf7676","fromSide":"right","toNode":"4ec688328320ebf7","toSide":"left"}
+		{"id":"3c7b64a534e0b4b3","fromNode":"f08215b54abf7676","fromSide":"right","toNode":"4ec688328320ebf7","toSide":"left"},
+		{"id":"20cc1854599eb852","fromNode":"4ec688328320ebf7","fromSide":"right","toNode":"1c2bc60611cd069f","toSide":"left"}
 	]
 }
