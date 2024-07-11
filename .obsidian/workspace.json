@@ -11,9 +11,14 @@
             "id": "7bda5c97038ff434",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "canvas",
               "state": {
-                "file": "assest/Pasted image 20240711195526.png"
+                "file": "航天青岛问题反馈.canvas",
+                "viewState": {
+                  "x": -612.5428096808498,
+                  "y": -2481.2367391017588,
+                  "zoom": -0.6666666666666663
+                }
               }
             }
           }
@@ -67,7 +72,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6b24aed06d6c8a1f",
@@ -83,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assest/Pasted image 20240711195526.png",
+                "file": "航天青岛问题反馈.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assest/Pasted image 20240711195526.png",
+                "file": "航天青岛问题反馈.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assest/Pasted image 20240711195526.png"
+                "file": "航天青岛问题反馈.canvas"
               }
             }
           }
@@ -147,11 +153,13 @@
   },
   "active": "7bda5c97038ff434",
   "lastOpenFiles": [
-    "assest/Pasted image 20240711172529.png",
-    "航天青岛问题反馈.canvas",
-    "assest/Pasted image 20240711195526.png",
+    "assest/20240626-解放项目-语音指令表-v1.0.1~BD675.tmp",
+    "assest/~$20240626-解放项目-语音指令表-v1.0.1.xlsx",
     "科大.canvas",
     "canvas/东风延擎.canvas",
+    "assest/Pasted image 20240711195526.png",
+    "assest/Pasted image 20240711172529.png",
+    "航天青岛问题反馈.canvas",
     "canvas/assest/Pasted image 20240710172906.png",
     "canvas/assest",
     "assest",
