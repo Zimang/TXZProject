@@ -72,8 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6b24aed06d6c8a1f",
@@ -151,7 +150,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7bda5c97038ff434",
+  "active": "980e21d729854bd7",
   "lastOpenFiles": [
     "assest/3666D710",
     "assest/9566D710",
