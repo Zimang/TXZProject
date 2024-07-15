@@ -11,21 +11,6 @@
             "id": "7bda5c97038ff434",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "24航天/航天青岛问题反馈.canvas",
-                "viewState": {
-                  "x": -1235.549058053069,
-                  "y": -2007.0556728812062,
-                  "zoom": -0.4999999999999994
-                }
-              }
-            }
-          },
-          {
-            "id": "e5bd4bb124e2ab6f",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "24航天/航天待办.md",
@@ -34,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,20 +149,21 @@
   },
   "active": "7bda5c97038ff434",
   "lastOpenFiles": [
-    "assest/航天-20240711-反馈同行者~5EBB9.tmp",
-    "assest/20240626-解放项目-语音指令表-v1.0.1~7E574.tmp",
-    "assest/20240426-航天青岛一汽项目-项目标准需求协议表~782E1.tmp",
-    "assest/20240426-航天青岛一汽项目-项目标准需求协议表~2EDD0.tmp",
-    "assest/航天-20240711-反馈同行者~29957.tmp",
-    "assest/航天-20240711-反馈同行者~6EC24.tmp",
-    "assest/20240426-航天青岛一汽项目-项目标准需求协议表~6E500.tmp",
-    "assest/~$20240626-解放项目-语音指令表-v1.0.1.xlsx",
-    "assest/航天-20240711-反馈同行者~2CD1E.tmp",
-    "assest/20240426-航天青岛一汽项目-项目标准需求协议表~2C389.tmp",
+    "assest/5FB95000",
+    "assest/96B95000",
     "assest/~$20240426-航天青岛一汽项目-项目标准需求协议表.xlsx",
+    "log/2024-07-12.md",
+    "assest/~$航天-20240711-反馈同行者.xlsx",
+    "航天青岛问题反馈.canvas",
     "24航天/航天青岛问题反馈.canvas",
     "24航天/航天待办.md",
-    "log/2024-07-12.md",
+    "24航天",
+    "log",
+    "assest/20240626-解放项目-语音指令表-v1.0.1~7EEC6.tmp",
+    "assest/航天-20240711-反馈同行者~7E967.tmp",
+    "assest/~$20240626-解放项目-语音指令表-v1.0.1.xlsx",
+    "assest/航天-20240711-反馈同行者~9C982.tmp",
+    "assest/20240626-解放项目-语音指令表-v1.0.1~9C1E1.tmp",
     "科大.canvas",
     "canvas/东风延擎.canvas",
     "assest/Pasted image 20240711195526.png",
