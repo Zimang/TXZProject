@@ -11,15 +11,31 @@
             "id": "7bda5c97038ff434",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "24航天/航天青岛问题反馈.canvas",
+                "viewState": {
+                  "x": -1102.4000985000807,
+                  "y": -1928.417843157447,
+                  "zoom": -1.3333333333333328
+                }
+              }
+            }
+          },
+          {
+            "id": "e5bd4bb124e2ab6f",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "24航天/航天待办.md",
+                "file": "log/2024-07-16.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "24航天/航天待办.md",
+                "file": "log/2024-07-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "24航天/航天待办.md",
+                "file": "log/2024-07-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "24航天/航天待办.md"
+                "file": "log/2024-07-16.md"
               }
             }
           }
@@ -147,26 +163,27 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7bda5c97038ff434",
+  "active": "980e21d729854bd7",
   "lastOpenFiles": [
-    "assest/~$20240626-解放项目-语音指令表-v1.0.1.xlsx",
-    "assest/~$航天-20240711-反馈同行者.xlsx",
-    "log/2024-07-15.md",
-    "assest/陕汽德龙x6000英文指令表20240715.xlsx",
-    "assest/20240626-东风电驱-延擎-X6000协议表.xlsx",
-    "assest/20240624-科大物联-上汽大众协议表(2).xlsx",
-    "24科大/烧录/关闭数字签名.pdf",
-    "24科大/烧录/setup.exe",
-    "24科大/烧录/QFIL-QualcommFlashTools/fh_loader.exe",
-    "24科大/烧录/QFIL-QualcommFlashTools/SwDownloadDLL.dll",
-    "24科大/烧录/QFIL-QualcommFlashTools/SubSysSwDownload.dll",
-    "24科大/烧录/QFIL-QualcommFlashTools/QualCtrl.dll",
-    "log/2024-07-12.md",
-    "航天青岛问题反馈.canvas",
+    "assest/航天-20240711-反馈同行者~0B211.tmp",
+    "assest/唤醒日志.log",
+    "assest/新建 文本文档.txt",
+    "assest/20240626-解放项目-语音指令表-v1.0.1~0A6C0.tmp",
+    "assest/20240626-解放项目-问题反馈~DE02B.tmp",
     "24航天/航天青岛问题反馈.canvas",
+    "assest/20240626-解放项目-问题反馈~16B44.tmp",
+    "assest/20240626-解放项目-问题反馈~264CA.tmp",
+    "assest/20240626-解放项目-问题反馈~1FC7B.tmp",
+    "assest/~$20240626-解放项目-问题反馈.xlsx",
+    "assest/20240626-解放项目-问题反馈.xlsx",
+    "assest/航天-20240711-反馈同行者~69CFB.tmp",
+    "log/2024-07-16.md",
+    "log/assets/image-20240716120722564.png",
+    "log/2024-07-15.md",
     "24航天/航天待办.md",
-    "科大.canvas",
     "canvas/东风延擎.canvas",
+    "log/2024-07-12.md",
+    "科大.canvas",
     "assest/Pasted image 20240711195526.png",
     "assest/Pasted image 20240711172529.png",
     "canvas/assest/Pasted image 20240710172906.png",

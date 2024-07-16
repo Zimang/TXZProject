@@ -1,0 +1,553 @@
+2024-07-16 15:06:10.760  2138-2178  TXZ::IMess...:sendEvent com.txznet.txz                       D  event[272|0] from[*CUIManager] data_size=[204][message_module.cpp:97]
+2024-07-16 15:06:10.760  2138-2244  TXZ::CMess...patchEvent com.txznet.txz                       D  event[272|0] from[*CUIManager] dispath event to[*CTraceManager][message_dispatch_manager.cpp:265]
+2024-07-16 15:06:10.760  2138-2178  com.txznet...tifyStatus com.txznet.txz                       D  DataEventManager::143[Proguard:5]
+2024-07-16 15:06:11.721  2138-2400  com.txznet...gine::logd com.txznet.txz                       D  onFixResult ={"accrued_data_size":20060,"confidence":7.440,"end_time":292775,"energy":85602922,"result":"0 <s> <_wakeupKeywords> 你好解放 </_wakeupKeywords> </s>\n7.44\n","star_time":292055,"text":"<_wakeupKeywords>你好解放</_wakeupKeywords>"}, recordType 3, type 2, hash 78206148[MixEngine.java:1296]
+2024-07-16 15:06:11.721  2138-2400  com.txznet...gine::logi com.txznet.txz                       I  use result = {"accrued_data_size":20060,"confidence":7.440,"end_time":292775,"energy":85602922,"result":"0<s><_wakeupKeywords>你好解放</_wakeupKeywords></s>\n7.44\n","star_time":292055,"text":"<_wakeupKeywords>你好解放</_wakeupKeywords>"} quick:false, recordType 3, type 2, hash 78206148[MixEngine.java:1307]
+2024-07-16 15:06:11.722  2138-2178  com.txznet...gine::logd com.txznet.txz                       D  mState: 2, recordType 3, type 2, hash 78206148[MixEngine.java:1296]
+2024-07-16 15:06:11.722  2138-2178  System.out              com.txznet.txz                       I  userDefSlot:wakeupKeywords
+2024-07-16 15:06:11.722  2138-2178  System.out              com.txznet.txz                       I  userDefText:你好解放
+2024-07-16 15:06:11.722  2138-2178  TXZ::CResM...ngFromJson com.txznet.txz                       E  RS_VOICE_UNKNOW_LOCAL_WAKEUP_KEYWORD array size empty[res_manager.cpp:217]
+2024-07-16 15:06:11.722  2138-2178  com.txznet...ToTxzScene com.txznet.txz                       D  yzs text local:{"local":true,"text":"你好解放","score":90,"scene":"unknown","action":"unknown","answer":""}[TextYunzhishengImplV7.java:122]
+2024-07-16 15:06:11.723  2138-2178  TXZ                     com.txznet.txz                       D  [(MixEngineHelper.java:13)#getResult] msg_notify_result_with_time wakeupType=0, score=-1.29, recordType=3, energy=8.5602922E7
+2024-07-16 15:06:11.723  2138-2178  com.txznet...::onWakeUp com.txznet.txz                       D  mWakeup onWakeUp text:你好解放 ,score:-1.29 ,attackTime:292969 ,preCmds:{},recordType=3[Proguard:3]
+2024-07-16 15:06:11.723  2138-2178  com.txznet...ger::start com.txznet.txz                       D  Wakeup start2.... elapsedRealtime0[Proguard:2]
+2024-07-16 15:06:11.723  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  Wakeup start.... elapsedRealtime0, interval:292969[Proguard:37]
+2024-07-16 15:06:11.723  2138-2178  com.txznet...ntKeywords com.txznet.txz                       D  no change wakeup keywords[Proguard:4]
+2024-07-16 15:06:11.723  2138-2178  com.txznet...gine::logd com.txznet.txz                       D  setWakeupWords, recordType 3, type 2, hash 78206148[MixEngine.java:1296]
+2024-07-16 15:06:11.723  2138-2178  com.txznet...akeupWords com.txznet.txz                       W  wakeup keywords not change[MixEngine.java:862]
+2024-07-16 15:06:11.723  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  wakeupThreshold = -3.1 ,mWakeupThreshhold =  -3.1, mAsrWakeupThreshhold = -3.1[Proguard:59]
+2024-07-16 15:06:11.723  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  mWakeupMinThreshold = -3.5[Proguard:60]
+2024-07-16 15:06:11.723  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  start wakeup oOption.mBeginSpeechTime = 0[Proguard:68]
+2024-07-16 15:06:11.724  2138-2178  com.txznet...tartWakeup com.txznet.txz                       D  startWakeup: falsefalsefalsetruefalsetruefalse[Proguard:16]
+2024-07-16 15:06:11.724  2138-2178  com.txznet...gine::logd com.txznet.txz                       D  startWakeup, recordType 3, type 2, hash 78206148[MixEngine.java:1296]
+2024-07-16 15:06:11.724  2138-2178  com.txznet...gine::logw com.txznet.txz                       W  wakeup already start !!!, recordType 3, type 2, hash 78206148[MixEngine.java:1300]
+2024-07-16 15:06:11.724  2138-2178  DataEventLog            com.txznet.txz                       D  [(DataEventLog.java:28)#printVuiWakeupEvent] report dataId:107,vuiWakeupEvent:{"u32SdkVersion":1,"u32VuiEventType":3,"u64SessionId":1,"asrEvent":{"u32WakeupVolume":0,"u32WakeupEventType":1,"u32ErrorCode":0,"u32UsingAsrInnerCount":0,"msgAsrOption":{"fWakeupThreshold":-3.1,"fWakeupThresholdUser":-3.1,"fWakeupThresholdAsr":-3.1}}}
+2024-07-16 15:06:11.724  2138-2178  com.txznet...leCacheAEC com.txznet.txz                       D  setEnableCacheAEC enable = false[Proguard:1]
+2024-07-16 15:06:11.725  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  onWakeup text = 你好解放 ,threshold = null ,score = -1.29[Proguard:156]
+2024-07-16 15:06:11.725  2138-2178  com.txznet...SaveRawPCM com.txznet.txz                       D  save pcm false[Proguard:8]
+2024-07-16 15:06:11.725  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  save wakeup pcm data enable=false[Proguard:169]
+2024-07-16 15:06:11.725  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  onWakeUp wakeup result: 你好解放 ,time: 292971[Proguard:174]
+2024-07-16 15:06:11.725  2138-2178  TXZ                     com.txznet.txz                       D  [(WakeupManager.java:176)#O000000o] onWakeup interrupt dt=27665
+2024-07-16 15:06:11.725  2138-2178  TXZ                     com.txznet.txz                       D  [(WakeupManager.java:203)#O000000o] onWakeUp:::停止识别
+2024-07-16 15:06:11.725  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  AsrManager cancel stack[Proguard:204]
+2024-07-16 15:06:11.725  2138-2178  com.txznet...er::cancel com.txznet.txz                       E  State error: STATE_IDLE[Proguard:6]
+2024-07-16 15:06:11.725  2138-2178  com.txznet...::O00000oO com.txznet.txz                       D  RecorderWin state:0[Proguard:2]
+2024-07-16 15:06:11.727  2138-2178  com.txznet...::O000000o com.txznet.txz                       I  com.txznet.txz.record.STATUS_CHANGED当前录音状态:RECORD_END:2[Proguard:158]
+2024-07-16 15:06:11.727  2138-2178  com.txznet...RecordType com.txznet.txz                       D  sAsrRecordType : 3[Proguard:2]
+2024-07-16 15:06:11.727  2138-2178  TXZ                     com.txznet.txz                       D  [(WakeupManager.java:2)#saveWakeupType] saveWakeupType:0
+2024-07-16 15:06:11.727  2138-2178  com.txznet...::O0000O0o com.txznet.txz                       D  wakeupType= 0[Proguard:3]
+2024-07-16 15:06:11.727  2138-2178  GreetWordsHelper        com.txznet.txz                       D  [(GreetWordsHelper.java:1)#setRobotOrientation] setRobotOrientation: 0
+2024-07-16 15:06:11.728  2138-2178  com.txznet...nAsrResult com.txznet.txz                       D  onAsrResult default implement[Proguard:1]
+2024-07-16 15:06:11.728  2138-2178  TXZ                     com.txznet.txz                       D  [(WakeupManager.java:303)#O000000o] onPreWakeupCallback priority=MAJOR,text=你好解放,isOpen=false,isSAWD=false
+2024-07-16 15:06:11.728  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  LaunchManager launchWithWakeup[Proguard:1]
+2024-07-16 15:06:11.729  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  record status: doEnd, working=false[Proguard:23]
+2024-07-16 15:06:11.729  2138-2178  com.txznet...Oo::O0000o com.txznet.txz                       D  NavThirdApp packageName:com.txznet.guideanim[Proguard:1]
+2024-07-16 15:06:11.729  2138-2178  com.txznet...::O0000O0o com.txznet.txz                       D  hasGuideAnim GUIDE_PACKAGE_NAME false[Proguard:3]
+2024-07-16 15:06:11.730  2138-2178  TXZ::CResM...etTmpStyle com.txznet.txz                       D  set voice tmp style[][res_manager.cpp:349]
+2024-07-16 15:06:11.730  2138-2178  com.txznet...::O0000O0o com.txznet.txz                       D  cancelInnerPoiSearch[Proguard:2]
+2024-07-16 15:06:11.731  2138-2178  com.txznet...eSaveVoice com.txznet.txz                       D  save rf true[Proguard:8]
+2024-07-16 15:06:11.732  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  setNeedCloseRecord false[Proguard:32]
+2024-07-16 15:06:11.732  2138-2179  com.txznet...SaveRawPCM com.txznet.txz                       D  save pcm false[Proguard:8]
+2024-07-16 15:06:11.732  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  AsrManager cancel stack[Proguard:40]
+2024-07-16 15:06:11.732  2138-2178  com.txznet...er::cancel com.txznet.txz                       E  State error: STATE_IDLE[Proguard:6]
+2024-07-16 15:06:11.732  2138-2178  Core:Win:               com.txznet.txz                       D  [(RecorderWin.java:1)#O000O00o] open
+2024-07-16 15:06:11.732  2138-2178  GreetWordsHelper        com.txznet.txz                       D  [(GreetWordsHelper.java:1)#getGreetWordsByTime] getGreetWordsByTime
+2024-07-16 15:06:11.732  2138-2178  GreetWordsHelper        com.txznet.txz                       D  [(GreetWordsHelper.java:1)#getDefaultGreetWords] getDefaultGreetWords
+2024-07-16 15:06:11.732  2138-2178  com.txznet...tGrammarId com.txznet.txz                       D  getCurrentGrammarId: 0[Proguard:6]
+2024-07-16 15:06:11.732  2138-2179  com.txznet...readBySize com.txznet.txz                       D  TraceCacheBuffer readBySize, dataLength=96000[Proguard:1]
+2024-07-16 15:06:11.733  2138-2178  TXZ::IMess...:sendEvent com.txznet.txz                       D  event[196608|513] from[*CUIManager] data_size=[53][message_module.cpp:97]
+2024-07-16 15:06:11.733  2138-2179  com.txznet...readBySize com.txznet.txz                       D  TraceCacheBuffer readBySize buffer length=160000, write=72400[Proguard:4]
+2024-07-16 15:06:11.733  2138-2244  TXZ::CMess...patchEvent com.txznet.txz                       D  event[196608|513] from[*CUIManager] dispath event to[*VoiceManager][message_dispatch_manager.cpp:265]
+2024-07-16 15:06:11.733  2138-2178  com.txznet...nager::log com.txznet.txz                       D  MediaPriorityManager::recordMediaToolStatus: status = IDLE, tool = cn.kuwo.kwmusiccar[Proguard:1]
+2024-07-16 15:06:11.733  2138-2178  com.txznet...::O0000OOo com.txznet.txz                       D  2138 StatementCycle show[Proguard:17]
+2024-07-16 15:06:11.733  2138-2178  com.txznet...::O00000oO com.txznet.txz                       D  RecorderWin state:0[Proguard:2]
+2024-07-16 15:06:11.733  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  WheelControl : add WheelControlListener default[Proguard:62]
+2024-07-16 15:06:11.734  2138-2178  com.txznet...::O00oOooO com.txznet.txz                       D  Core:Win:RecorderWin winUI show[Proguard:2]
+2024-07-16 15:06:11.734  2138-2244  TXZ::CmdKe...addKeyword com.txznet.txz                       D  addKeyWords(26):[100|0x64|CMD_TYPE_BACK_GROUD],cmd[global_cmd_end_chat],event[5242886|0x500006|EVENT_UI_BACK_GROUD_COMMAND][0] | [100|0x64|CMD_TYPE_BACK_GROUD],cmd[返回],event[5242886|0x500006|EVENT_UI_BACK_GROUD_COMMAND][0] | [100|0x64|CMD_TYPE_BACK_GROUD],cmd[取消],event[5242886|0x500006|EVENT_UI_BACK_GROUD_COMMAND][0] | [100|0x64|CMD_TYPE_BACK_GROUD],cmd[回退],event[5242886|0x500006|EVENT_UI_BACK_GROUD_COMMAND][0] | [100|0x64|CMD_TYPE_BACK_GROUD],cmd[再见],event[5242886|0x500006|EVENT_UI_BACK_GROUD_COMMAND][0] | [100|0x64|CMD_TYPE_BACK_GROUD],cmd[退出],event[5242886|0x500006|EVENT_UI_BACK_GROUD_COMMAND][0] | [100|0x64|CMD_TYPE_BACK_GROUD],cmd[关闭],event[5242886|0x500006|EVENT_UI_BACK_GROUD_COMMAND][0] | [100|0x64|CMD_TYPE_BACK_GROUD],cmd[退出聊天],event[5242886|0x500006|EVENT_UI_BACK_GROUD_COMMAND][0] | [100|0x64|CMD_TYPE_BACK_GROUD],cmd[退下],event[5242886|0x500006|EVENT_UI_BACK_GROUD_COMMAND][0] | [100|0x64|CMD_TYPE_BACK_GROUD],cmd[给朕退下],event[5242886|0x500006|EVENT_UI_BACK_GR
+2024-07-16 15:06:11.735  2138-2178  com.txznet...eWebDialog com.txznet.txz                       D  SimWebDialog::closeWebDialog strRes = recordWin open[Proguard:1]
+2024-07-16 15:06:11.735  2138-2138  com.txznet...eWebDialog com.txznet.txz                       D  RecordWin2True show[Proguard:1]
+2024-07-16 15:06:11.735  2138-2178  CORE:MUSIC:             com.txznet.txz                       D  [(O0000oo.java:1)#O0000Ooo] onShowRecorderWin
+2024-07-16 15:06:11.735  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  CORE:MUSIC:REQUESTFOCUS:AUDIO_LOGIC_NONE stream=9/true[Proguard:38]
+2024-07-16 15:06:11.735  2138-2178  com.txznet...::O000000o com.txznet.txz                       I  CORE:MUSIC:request audio focus1 ret->true[Proguard:8]
+2024-07-16 15:06:11.735  2138-2178  com.txznet...tExitLogic com.txznet.txz                       D  InterruptTts resetExitLogic[Proguard:1]
+2024-07-16 15:06:11.738  2116-2116  Adp_1.0.1....nReceive() com.txznet.adapter                   D   (CenterBroadcastReceiver.java:52) onReceive: action:com.txznet.txz.record.show extras:null
+2024-07-16 15:06:11.739  2138-2138  com.txznet...True::show com.txznet.txz                       D  dialog_background_name::dialog_bg[Proguard:16]
+2024-07-16 15:06:11.739  2138-2138  com.txznet...etDrawable com.txznet.txz                       E  failed getDrawable dialog_bg[Proguard:14]
+2024-07-16 15:06:11.740  2138-2178  TXZ                     com.txznet.txz                       D  [(O0000o0O.java:4)#O0000O0o] background ad config is null.
+2024-07-16 15:06:11.740  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  SDKFloatView recordState:0[Proguard:15]
+2024-07-16 15:06:11.740  2138-2178  com.txznet...::O00000oO com.txznet.txz                       D  RecorderWin state:3[Proguard:2]
+2024-07-16 15:06:11.740  2138-2178  com.txznet...tExitLogic com.txznet.txz                       D  InterruptTts resetExitLogic[Proguard:1]
+2024-07-16 15:06:11.741  2138-2178  AsrManager              com.txznet.txz                       D  [(AsrManager.java:1)#startNoSpeechTiming] startNoSpeechTiming: enableDictation=true
+2024-07-16 15:06:11.741  2138-2178  TXZ                     com.txznet.txz                       D  [(RecorderWin.java:33)#O000000o] open->startTiming()
+2024-07-16 15:06:11.742  2138-2178  com.txznet...:parseData com.txznet.txz                       D  {"action":"addMsg","type":"fromSys","msg":"哈喽"}[Proguard:1]
+2024-07-16 15:06:11.742  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  speakText: stream=-1 ,text=哈喽,url=null,delay=0,bPreempt=PREEMPT_TYPE_IMMEADIATELY,fromRemote=false,forceStopWakeup=false,CurrThemeName=[Proguard:48]
+2024-07-16 15:06:11.742  2138-2179  com.txznet...RecordFile com.txznet.txz                       D  RecordFile completeRecordFile name = txz_wakeup_1721113571717.rf ,CRC = 2253705752 ,TotalSize = 96076[Proguard:19]
+2024-07-16 15:06:11.742  2138-2178  com.txznet...er::<init> com.txznet.txz                       E  route is empty[Proguard:5]
+2024-07-16 15:06:11.742  2138-2178  DataEventLog            com.txznet.txz                       D  [(DataEventLog.java:14)#printEquipmentEventDataBase] report dataId:156,equipmentEventDataBase:{"u32SdkVersion":1,"msgEventData":{"u32Preserve1":4,"u32Preserve2":3},"strRoute":""}
+2024-07-16 15:06:11.743  2138-2178  com.txznet...ndSelected com.txznet.txz                       E  onCommandSelected no implement1[Proguard:3]
+2024-07-16 15:06:11.743  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  CORE:MUSIC:finish wakeup command=你好解放,by id=txz_major_wakeup,service=com.txznet.txz,priority=MAJOR,winOpen=true,isSAWDIng=false,isSAWDIngReal=false[Proguard:106]
+2024-07-16 15:06:11.743  2138-2178  com.txznet...eSaveVoice com.txznet.txz                       D  save rf true[Proguard:8]
+2024-07-16 15:06:11.743  2138-2178  com.txznet...FullDuplex com.txznet.txz                       D  AsrManager cancel stack[Proguard:2]
+2024-07-16 15:06:11.743  2138-2178  com.txznet...er::cancel com.txznet.txz                       E  State error: STATE_IDLE[Proguard:6]
+2024-07-16 15:06:11.743  2138-2178  com.txznet...le::cancel com.txznet.txz                       D  cancel![Proguard:6]
+2024-07-16 15:06:11.743  2138-2178  com.txznet...pl::cancel com.txznet.txz                       D  cancel![Proguard:2]
+2024-07-16 15:06:11.743  2138-2178  com.txznet...pl::cancel com.txznet.txz                       D  nlp:cancel![Proguard:1]
+2024-07-16 15:06:11.743  2138-2178  com.txznet...pl::cancel com.txznet.txz                       D  nlp:cancelTxz[Proguard:8]
+2024-07-16 15:06:11.743  2138-2179  com.txznet...SaveRawPCM com.txznet.txz                       D  save pcm false[Proguard:8]
+2024-07-16 15:06:11.743  2138-2178  TextSayAnythingSeeImpl  com.txznet.txz                       D  [(TextSayAnythingSeeImpl.java:1)#cancel] cancel
+2024-07-16 15:06:11.743  2138-2178  TextTxzNewImpl          com.txznet.txz                       D  [(TextTxzNewImpl.java:1)#cancel] cancel
+2024-07-16 15:06:11.743  2138-2178  TextNetKeywordImpl      com.txznet.txz                       D  [(TextNetKeywordImpl.java:1)#cancel] cancel
+2024-07-16 15:06:11.744  2138-2178  DataEventLog            com.txznet.txz                       D  [(DataEventLog.java:28)#printVuiWakeupEvent] report dataId:109,vuiWakeupEvent:{"u32SdkVersion":1,"u32VuiEventType":3,"u64SessionId":2,"asrEvent":{"u32WakeupVolume":0,"msgWakeupResult":{"strText":"你好解放","strTaskId":"txz_major_wakeup","fScore":-1.29,"u64AttackTime":292969,"strServicePackage":"com.txznet.txz","u64WakeupId":1721113571714},"u32WakeupEventType":3,"u32ErrorCode":0,"u32UsingAsrInnerCount":0,"msgAsrOption":{"fWakeupThreshold":-3.1,"fWakeupThresholdUser":-3.1,"fWakeupThresholdAsr":-3.1}}}
+2024-07-16 15:06:11.744  2138-2179  com.txznet...readBySize com.txznet.txz                       D  TraceCacheBuffer readBySize, dataLength=96000[Proguard:1]
+2024-07-16 15:06:11.744  2138-2179  com.txznet...readBySize com.txznet.txz                       D  TraceCacheBuffer readBySize buffer length=160000, write=73600[Proguard:4]
+2024-07-16 15:06:11.744  2138-2178  TXZ                     com.txznet.txz                       D  [(WakeupManager.java:1)#genWakeupKeywordsAndRestart] genWakeupKeywordsAndRestart
+2024-07-16 15:06:11.745  2138-2178  TXZ                     com.txznet.txz                       D  [(WakeupManager.java:36)#O0000Oo0] genWakeupKeywords keywords winIsOpen=true,isSAWDIng=false
+2024-07-16 15:06:11.745  2138-2178  TXZ                     com.txznet.txz                       D  [(WakeupManager.java:37)#O0000Oo0] genWakeupKeywords keywords offline:[上一台, 上一首, 下一台, 下一首, 你好解放, 你好鹰途, 关闭导航, 关闭屏幕, 关闭音乐, 减小音量, 别播了, 单曲循环, 增大音量, 打开导航, 打开屏幕, 播放音乐, 暂停播放, 继续播放, 解放你好, 返回导航, 随机播放, 顺序播放, 鹰途你好]
+2024-07-16 15:06:11.745  2138-2178  TXZ                     com.txznet.txz                       D  [(WakeupManager.java:38)#O0000Oo0] genWakeupKeywords keywords online:[]
+2024-07-16 15:06:11.745  2138-2178  TXZ                     com.txznet.txz                       D  [(WakeupManager.java:39)#O0000Oo0] genWakeupKeywords keywords offline need wakeup:[]
+2024-07-16 15:06:11.745  2138-2178  TXZ::IMess...:sendEvent com.txznet.txz                       D  event[196608|515] from[*CUIManager] data_size=[307][message_module.cpp:97]
+2024-07-16 15:06:11.745  2138-2178  com.txznet...::O000000o com.txznet.txz                       I  instantAsr::genWakeupKeywordsWithInstantAsr keywords [[解放你好, 你好鹰途, 鹰途你好, 你好解放, 上一台, 上一首, 下一台, 下一首, 你好解放, 你好鹰途, 关闭导航, 关闭屏幕, 关闭音乐, 减小音量, 别播了, 单曲循环, 增大音量, 打开导航, 打开屏幕, 播放音乐, 暂停播放, 继续播放, 解放你好, 返回导航, 随机播放, 顺序播放, 鹰途你好]][Proguard:34]
+2024-07-16 15:06:11.746  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  needProtectWakeup = 0[Proguard:66]
+2024-07-16 15:06:11.746  2138-2244  TXZ::CMess...patchEvent com.txznet.txz                       D  event[196608|515] from[*CUIManager] dispath event to[*VoiceManager][message_dispatch_manager.cpp:265]
+2024-07-16 15:06:11.746  2138-2178  com.txznet...000oO::run com.txznet.txz                       D  really begin play tts: 5[Proguard:3]
+2024-07-16 15:06:11.746  2138-2178  com.txznet...::O00000oO com.txznet.txz                       D  RecorderWin state:5[Proguard:2]
+2024-07-16 15:06:11.746  2138-2178  com.txznet...inCallback com.txznet.txz                       D  onTtsBeginCallback()[Proguard:1]
+2024-07-16 15:06:11.747  2138-2138  com.txznet...::O000000o com.txznet.txz                       D  SDKFloatView setFloatToolType:2[Proguard:18]
+2024-07-16 15:06:11.748  2138-2178  com.txznet...::O00000Oo com.txznet.txz                       D  speakText begin: id=5,stream=9,text=哈喽,sco=false[Proguard:33]
+2024-07-16 15:06:11.749  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  needProtectWakeup = 0[Proguard:66]
+2024-07-16 15:06:11.749  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  CORE:MUSIC:onBeginTts[Proguard:8]
+2024-07-16 15:06:11.749  2138-2178  com.txznet...onBeginTts com.txznet.txz                       E  onBeginTtsTimeMap{mBeginTtsTime=0, mEndTtsTime=276366, mBeginAsrTime=266320, mEndAsrTime=276360, mId=0}[Proguard:1]
+2024-07-16 15:06:11.749  2138-2178  com.txznet...::O00000oO com.txznet.txz                       D  RecorderWin state:0[Proguard:2]
+2024-07-16 15:06:11.750  2138-2179  com.txznet...RecordFile com.txznet.txz                       D  RecordFile completeRecordFile name = txz_cmd_1721113571714.rf ,CRC = 653601279 ,TotalSize = 96076[Proguard:19]
+2024-07-16 15:06:11.751  2138-2178  com.txznet...::O000000o com.txznet.txz                       I  com.txznet.txz.record.STATUS_CHANGED当前录音状态:RECORD_END:2[Proguard:158]
+2024-07-16 15:06:11.752  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  CORE:MUSIC:REQUESTFOCUS:AUDIO_LOGIC_PAUSE stream=9/true[Proguard:38]
+2024-07-16 15:06:11.752  2138-2178  com.txznet...::O000000o com.txznet.txz                       I  CORE:MUSIC:request audio focus1 ret->true[Proguard:8]
+2024-07-16 15:06:11.752  2138-2178  com.txznet...::startAsr com.txznet.txz                       D  sInterruptTTS:false;needStartAsr:true;needStartWakeUp:true[Proguard:3]
+2024-07-16 15:06:11.752  2138-2178  TXZ                     com.txznet.txz                       D  [(InterruptTts.java:4)#startAsr] getInterruptMode:INTERRUPT_MODE_DEFAULT
+2024-07-16 15:06:11.753  2138-2178  com.txznet...lV7::start com.txznet.txz                       D  start[TtsYunzhishengImplV7.java:163]
+2024-07-16 15:06:11.753  2138-2178  TtsYunzhishengImplV7    com.txznet.txz                       D  [(TtsYunzhishengImplV7.java:225)#isOnlineAvl] isOnlineTtsAvl() isOpen= false; isConnected= true
+2024-07-16 15:06:11.753  2138-2178  TtsYunzhishengImplV7    com.txznet.txz                       D  [(TtsYunzhishengImplV7.java:238)#startOffline] start by offline tts,text= 哈喽
+2024-07-16 15:06:11.753  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] opt=10, size=101 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1102]
+2024-07-16 15:06:11.753  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] set opt 10 = 1952539695 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1286]
+2024-07-16 15:06:11.753  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] opt push queue [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1293]
+2024-07-16 15:06:11.754  2345-2385  TXZ_NATIVE_TTS          TxzEngineTts                         I  [enableParamAfterInit] change /data/user/0/com.txznet.txz/engine/engine_v7/data/tts_model/backend_kiyo_lpc2wav_22k_pf_mixed_v1.0.0 speaker [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1490]
+2024-07-16 15:06:11.754  2138-2178  com.txznet...::setParam com.txznet.txz                       D  streamtype = 9[AbsTtsImplV7.java:219]
+2024-07-16 15:06:11.754  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_change_speaker:391] 
+2024-07-16 15:06:11.755  2345-2385  COM                     TxzEngineTts                         D  --start-- handle = 0xc54a7a80, backend_path = /data/user/0/com.txznet.txz/engine/engine_v7/data/tts_model/backend_kiyo_lpc2wav_22k_pf_mixed_v1.0.0
+2024-07-16 15:06:11.755  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.755  2138-2180  com.txznet...:preInvoke com.txznet.txz                       D  music:receive:handler:AIDL:com.txznet.txz,from:com.txznet.txz/comm.status.onBeginTts[Proguard:2]
+2024-07-16 15:06:11.755  2116-2130  com.txznet...:preInvoke com.txznet.adapter                   D  music:receive:handler:AIDL:com.txznet.adapter,from:com.txznet.txz/comm.status.onBeginTts[ServiceHandlerBase.java:38]
+2024-07-16 15:06:11.756  2254-2267  com.txznet...andlerBase com.txznet.debugtool                 D  [com.txznet.comm.remote.ServiceHandlerBase::preInvoke]music:receive:handler:AIDL:com.txznet.debugtool,from:com.txznet.txz/comm.status.onBeginTts[ServiceHandlerBase.java:38]
+2024-07-16 15:06:11.756  2116-2480  Adp_1.0.1....equester() com.txznet.adapter                   D   (ProtoUtil.java:64) action::com.txznet.txz.tts.start,keyType::1110,params::[]
+2024-07-16 15:06:11.756  2116-2480  Adp_1.0.1....til.send() com.txznet.adapter                   D   (ProtoUtil.java:69) send requester:Request{keyType=1110, action='com.txznet.txz.tts.start', params={}}
+2024-07-16 15:06:11.756  2116-2480  Adp_1.0.1....oto.send() com.txznet.adapter                   D   (AIDLProto.java:32) send:Request{keyType=1110, action='com.txznet.txz.tts.start', params={}}
+2024-07-16 15:06:11.756  2116-2480  Adp_1.0.1....stOrAIDL() com.txznet.adapter                   D   (BaseTool.java:29) mailman: keyType  1110  action  com.txznet.txz.tts.start o: [] 
+2024-07-16 15:06:11.758  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_change_speaker:396] 
+2024-07-16 15:06:11.758  2345-2385  COM                     TxzEngineTts                         D  --end-- ret = 0
+2024-07-16 15:06:11.758  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.764  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] opt=20, size=5 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1102]
+2024-07-16 15:06:11.764  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] set opt 20 = 70 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1286]
+2024-07-16 15:06:11.764  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] opt push queue [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1293]
+2024-07-16 15:06:11.765  2345-2385  TXZ_NATIVE_TTS          TxzEngineTts                         I  [enableParamAfterInit] set opt=1 data=70 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1507]
+2024-07-16 15:06:11.765  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_set_option:223] 
+2024-07-16 15:06:11.765  2345-2385  COM                     TxzEngineTts                         D  --start-- handle = 0xc54a7a80, id = 1, opt = 70
+2024-07-16 15:06:11.765  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.765  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_set_option:228] 
+2024-07-16 15:06:11.765  2345-2385  COM                     TxzEngineTts                         D  --end-- ret = 0
+2024-07-16 15:06:11.765  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.765  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] opt=22, size=5 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1102]
+2024-07-16 15:06:11.765  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] set opt 22 = 180 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1286]
+2024-07-16 15:06:11.765  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] opt push queue [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1293]
+2024-07-16 15:06:11.765  2345-2385  TXZ_NATIVE_TTS          TxzEngineTts                         I  [enableParamAfterInit] set opt=-1 data=180 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1507]
+2024-07-16 15:06:11.765  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_set_option:223] 
+2024-07-16 15:06:11.765  2345-2385  COM                     TxzEngineTts                         D  --start-- handle = 0xc54a7a80, id = -1, opt = 180
+2024-07-16 15:06:11.765  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.765  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_set_option:228] 
+2024-07-16 15:06:11.765  2345-2385  COM                     TxzEngineTts                         D  --end-- ret = 0
+2024-07-16 15:06:11.765  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.766  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] opt=2, size=5 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1102]
+2024-07-16 15:06:11.766  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] set opt 2 = 50 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1286]
+2024-07-16 15:06:11.766  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] opt push queue [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1293]
+2024-07-16 15:06:11.766  2345-2385  TXZ_NATIVE_TTS          TxzEngineTts                         I  [enableParamAfterInit] set opt=11 data=50 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1507]
+2024-07-16 15:06:11.766  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_set_option:223] 
+2024-07-16 15:06:11.766  2345-2385  COM                     TxzEngineTts                         D  --start-- handle = 0xc54a7a80, id = 11, opt = 50
+2024-07-16 15:06:11.766  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.766  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_set_option:228] 
+2024-07-16 15:06:11.766  2345-2385  COM                     TxzEngineTts                         D  --end-- ret = 0
+2024-07-16 15:06:11.766  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.766  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] opt=12, size=5 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1102]
+2024-07-16 15:06:11.766  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] set opt 12 = 50 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1286]
+2024-07-16 15:06:11.766  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] opt push queue [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1293]
+2024-07-16 15:06:11.766  2345-2385  TXZ_NATIVE_TTS          TxzEngineTts                         I  [enableParamAfterInit] set opt=2 data=50 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1507]
+2024-07-16 15:06:11.766  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_set_option:223] 
+2024-07-16 15:06:11.766  2345-2385  COM                     TxzEngineTts                         D  --start-- handle = 0xc54a7a80, id = 2, opt = 50
+2024-07-16 15:06:11.766  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.767  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] opt=4, size=5 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1102]
+2024-07-16 15:06:11.767  2345-2385  USCTTS_ENGINE           TxzEngineTts                         I  Range[0.0,100.0], Set Pitch Change: 50.0 -> 50.0
+2024-07-16 15:06:11.767  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] set opt 4 = 0 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1286]
+2024-07-16 15:06:11.767  2345-2385  USCTTS_ENGINE           TxzEngineTts                         I  Range[-12.0,12.0], Set Pitch Change: 0.0
+2024-07-16 15:06:11.767  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_set_option:228] 
+2024-07-16 15:06:11.767  2345-2385  COM                     TxzEngineTts                         D  --end-- ret = 0
+2024-07-16 15:06:11.767  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.767  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] opt push queue [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1293]
+2024-07-16 15:06:11.767  2345-2385  TXZ_NATIVE_TTS          TxzEngineTts                         I  [enableParamAfterInit] set opt=6 data=0 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1507]
+2024-07-16 15:06:11.767  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_set_option:223] 
+2024-07-16 15:06:11.767  2345-2385  COM                     TxzEngineTts                         D  --start-- handle = 0xc54a7a80, id = 6, opt = 0
+2024-07-16 15:06:11.767  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.767  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_set_option:228] 
+2024-07-16 15:06:11.767  2345-2385  COM                     TxzEngineTts                         D  --end-- ret = 0
+2024-07-16 15:06:11.767  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.768  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] opt=1, size=5 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1102]
+2024-07-16 15:06:11.768  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] set opt 1 = 100 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1286]
+2024-07-16 15:06:11.768  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_setTtsOption] opt push queue [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1293]
+2024-07-16 15:06:11.768  2345-2385  TXZ_NATIVE_TTS          TxzEngineTts                         I  [enableParamAfterInit] set opt=7 data=100 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1507]
+2024-07-16 15:06:11.768  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_set_option:223] 
+2024-07-16 15:06:11.768  2345-2385  COM                     TxzEngineTts                         D  --start-- handle = 0xc54a7a80, id = 7, opt = 100
+2024-07-16 15:06:11.768  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.768  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_set_option:228] 
+2024-07-16 15:06:11.768  2345-2385  COM                     TxzEngineTts                         D  --end-- ret = 0
+2024-07-16 15:06:11.768  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.769  2138-2178  com.txznet...::setParam com.txznet.txz                       D  BUFFER_TIME : 0[AbsTtsImplV7.java:233]
+2024-07-16 15:06:11.771  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [OfflineTTS_playTts] tts start test=哈喽 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:927]
+2024-07-16 15:06:11.773  2138-2371  com.txznet...axPriority com.txznet.txz                       D  set thread[txzTtsPicProc] pid[2138] tid[2371] max priority[Proguard:4]
+2024-07-16 15:06:11.775  2138-2371  AudioTrack              com.txznet.txz                       D  Client defaulted notificationFrames to 1264 for frameCount 3792
+2024-07-16 15:06:11.776  2138-2371  com.txznet...ck::<init> com.txznet.txz                       D  TXZAudioTrack Constructor streamType = 9 ,sampleRateInHz = 22050 ,bufferSizeInBytes = 7584 ,mode = 1[Proguard:19]
+2024-07-16 15:06:11.776  1117-1168  audio_hw_hal            audioserver                          D  raw_start_output_stream, stream=0xc6f05140, sampleRate=48000, channel=2, bps=16, bufSize=4096
+2024-07-16 15:06:11.776  2138-2371  com.txznet...rack::open com.txznet.txz                       D  SysAudioTrack open success[Proguard:9]
+2024-07-16 15:06:11.777  2138-2371  com.txznet...enAudioOut com.txznet.txz                       D  TxzAudioSoouce open audio out nRet =  0[TxzAudioTrackImpl.java:131]
+2024-07-16 15:06:11.777  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_set_text:410] 
+2024-07-16 15:06:11.777  2345-2385  COM                     TxzEngineTts                         D  --start-- handle = 0xc54a7a80, text = 哈喽
+2024-07-16 15:06:11.777  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.779  2345-2385  USCTTS_ENGINE           TxzEngineTts                         I  inputOCStr 哈喽
+2024-07-16 15:06:11.779  2345-2385  USCTTS_ENGINE           TxzEngineTts                         I  inputlen 6
+2024-07-16 15:06:11.780  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start d2c process.
+2024-07-16 15:06:11.780  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start processMarked: 哈喽.
+2024-07-16 15:06:11.780  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  after process marked sub: 哈喽
+2024-07-16 15:06:11.780  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  after process marked letter: 哈喽
+2024-07-16 15:06:11.780  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  after process marked value: 哈喽
+2024-07-16 15:06:11.780  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  after process marked code: 哈喽
+2024-07-16 15:06:11.780  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  after process marked telephone: 哈喽
+2024-07-16 15:06:11.780  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  after process marked en value: 哈喽
+2024-07-16 15:06:11.780  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  after process marked en code: 哈喽
+2024-07-16 15:06:11.780  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  after process marked pname: 哈喽
+2024-07-16 15:06:11.780  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  after process marked sayas: 哈喽
+2024-07-16 15:06:11.780  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish processMarked: 哈喽.
+2024-07-16 15:06:11.780  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start processIgnore: 哈喽
+2024-07-16 15:06:11.780  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish processIgnore: 哈喽
+2024-07-16 15:06:11.780  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start processDanwei: 哈喽
+2024-07-16 15:06:11.782  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish processDanwei: 哈喽
+2024-07-16 15:06:11.782  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish d2c process.
+2024-07-16 15:06:11.782  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  Plain text.
+2024-07-16 15:06:11.782  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  Set input from plain text: 哈喽
+2024-07-16 15:06:11.782  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_set_text:415] 
+2024-07-16 15:06:11.782  2345-2385  COM                     TxzEngineTts                         D  --end-- ret = 0
+2024-07-16 15:06:11.782  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.783  2345-2385  TXZ_NATIVE_TTS          TxzEngineTts                         I  [_ProcLoop] tts player start [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1828]
+2024-07-16 15:06:11.783  2345-2385  TXZ_NATIVE_TTS          TxzEngineTts                         I  [_ProcLoop] tts analyze start [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1832]
+2024-07-16 15:06:11.783  2345-2385  TXZ_NATIVE_TTS          TxzEngineTts                         I  [_ProcLoop] tts first analyze start [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1880]
+2024-07-16 15:06:11.783  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_generate_wave:430] 
+2024-07-16 15:06:11.783  2345-2385  COM                     TxzEngineTts                         D  --start-- handle = 0xc54a7a80, wavbuf = 0xc4e9c5c0, maxSampleNum = 22050
+2024-07-16 15:06:11.783  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.783  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start getPartial.
+2024-07-16 15:06:11.783  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start get next string from input.
+2024-07-16 15:06:11.783  2138-2371  com.txznet...7::onEvent com.txznet.txz                       D  onPlayBegin[TtsOfflineImplV7.java:123]
+2024-07-16 15:06:11.783  2138-2371  com.txznet...7::onEvent com.txznet.txz                       D  beginSynthesizer[TtsOfflineImplV7.java:107]
+2024-07-16 15:06:11.784  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  find separator: .
+2024-07-16 15:06:11.784  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  next string is: 哈喽.
+2024-07-16 15:06:11.784  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish get next string from input.
+2024-07-16 15:06:11.784  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start processOneSen: 哈喽
+2024-07-16 15:06:11.784  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start separateCnEn.
+2024-07-16 15:06:11.784  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  Chinese substring: 哈喽
+2024-07-16 15:06:11.784  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish separateCnEn.
+2024-07-16 15:06:11.784  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start generateLabels.
+2024-07-16 15:06:11.784  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start pushCnLabs: 哈喽
+2024-07-16 15:06:11.784  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start loadMarkedPyns: 哈喽
+2024-07-16 15:06:11.784  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish loadMarkedPyns
+2024-07-16 15:06:11.784  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start SegmentCn::process : 哈喽
+2024-07-16 15:06:11.785  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  use model to get words
+2024-07-16 15:06:11.785  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish SegmentCn::process
+2024-07-16 15:06:11.785  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start SegmentCn::process : 哈喽
+2024-07-16 15:06:11.785  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  use mmseg to get words
+2024-07-16 15:06:11.785  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish SegmentCn::process
+2024-07-16 15:06:11.785  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start PosCn::process.
+2024-07-16 15:06:11.786  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish PosCn::process.
+2024-07-16 15:06:11.786  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start Zhuyin::zhuyinCn.
+2024-07-16 15:06:11.786  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start Zhuyin::zhuyinCnByDict.
+2024-07-16 15:06:11.786  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish Zhuyin::zhuyinCnByDict.
+2024-07-16 15:06:11.786  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start Zhuyin::postZhuyinBeforeProso.
+2024-07-16 15:06:11.789  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish Zhuyin::postZhuyinBeforeProso.
+2024-07-16 15:06:11.789  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start Zhuyin::formatPynsBySeg.
+2024-07-16 15:06:11.789  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish Zhuyin::formatPynsBySeg.
+2024-07-16 15:06:11.789  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish Zhuyin::zhuyinCn.
+2024-07-16 15:06:11.789  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start removeD2CSymbols.
+2024-07-16 15:06:11.789  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish removeD2CSymbols.
+2024-07-16 15:06:11.789  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start PosCn::process.
+2024-07-16 15:06:11.790  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish PosCn::process.
+2024-07-16 15:06:11.790  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start ProsoWordCn::process.
+2024-07-16 15:06:11.793  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start ProsoWordCn::processProso.
+2024-07-16 15:06:11.793  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish ProsoWordCn::processProso.
+2024-07-16 15:06:11.794  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish ProsoWordCn::process.
+2024-07-16 15:06:11.794  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start Zhuyin::postZhuyinAfterProso.
+2024-07-16 15:06:11.795  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish Zhuyin::postZhuyinAfterProso.
+2024-07-16 15:06:11.795  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start ProsoPhraseCn::process.
+2024-07-16 15:06:11.795  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start ProsoPhraseCn::tagProsoPhraseBySymbol.
+2024-07-16 15:06:11.795  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish ProsoPhraseCn::tagProsoPhraseBySymbol.
+2024-07-16 15:06:11.795  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish ProsoPhraseCn::process.
+2024-07-16 15:06:11.795  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start LabelFormatMix<LAB_DATA_TYPE>::pushCnInfos.
+2024-07-16 15:06:11.796  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish LabelFormatMix<LAB_DATA_TYPE>::pushCnInfos.
+2024-07-16 15:06:11.796  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish pushCnLabs
+2024-07-16 15:06:11.796  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start LabelFormatMix<LAB_DATA_TYPE>::format.
+2024-07-16 15:06:11.799  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish LabelFormatMix<LAB_DATA_TYPE>::format.
+2024-07-16 15:06:11.799  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish generateLabels.
+2024-07-16 15:06:11.799  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish processOneSen.
+2024-07-16 15:06:11.799  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish getPartial.
+2024-07-16 15:06:11.799  2345-2385  USCTTS_ENGINE           TxzEngineTts                         I  before synthesis
+2024-07-16 15:06:11.801  2138-2513  EGL_adreno              com.txznet.txz                       E  tid 2513: eglSurfaceAttrib(1346): error 0x3009 (EGL_BAD_MATCH)
+2024-07-16 15:06:11.801  2138-2513  OpenGLRenderer          com.txznet.txz                       W  Failed to set EGL_SWAP_BEHAVIOR on surface 0xb6e95220, error=EGL_BAD_MATCH
+2024-07-16 15:06:11.806  2138-2138  com.txznet...ScreenSize com.txznet.txz                       D  SceenSize change:960,516,mannual:false,sFitScreenChange:false[Proguard:1]
+2024-07-16 15:06:11.807  2138-2138  com.txznet...:preInvoke com.txznet.txz                       D  music:receive:handler:AIDL:com.txznet.txz,from:com.txznet.txz/txz.config.isSWADUsing[Proguard:2]
+2024-07-16 15:06:11.808  2138-2138  RecordWin2Manager       com.txznet.txz                       D  [(O0000ooo.java:34)#run] showData viewAdapter 1
+2024-07-16 15:06:11.810  2138-2138  com.txznet...cusChanged com.txznet.txz                       D  com.txznet.comm.ui.recordwin.RecordWin2True@a603839 onWindowFocusChanged: from true to true[Proguard:1]
+2024-07-16 15:06:11.811  1302-1743  InputMetho...gerService system_process                       W  Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@ce69395 (uid=10099 pid=2116)
+2024-07-16 15:06:11.812  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  begin makeWavs
+2024-07-16 15:06:11.812  2345-2385  USCTTS_ENGINE           TxzEngineTts                         I  put num 3314
+2024-07-16 15:06:11.812  2345-2385  USCTTS_ENGINE           TxzEngineTts                         I  receivedSampleNum: 3754
+2024-07-16 15:06:11.812  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_generate_wave:435] 
+2024-07-16 15:06:11.812  2345-2385  COM                     TxzEngineTts                         D  --end-- ret = 3754
+2024-07-16 15:06:11.812  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.812  2345-2385  TXZ_NATIVE_TTS          TxzEngineTts                         I  [_ProcLoop] tts first analyze stop, proc time:29ms [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1889]
+2024-07-16 15:06:11.814  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_generate_wave:430] 
+2024-07-16 15:06:11.814  2345-2385  COM                     TxzEngineTts                         D  --start-- handle = 0xc54a7a80, wavbuf = 0xc4e9c5c0, maxSampleNum = 22050
+2024-07-16 15:06:11.814  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.816  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  begin makeWavs
+2024-07-16 15:06:11.818  2345-2385  USCTTS_ENGINE           TxzEngineTts                         I  put num 8069
+2024-07-16 15:06:11.819  2345-2385  USCTTS_ENGINE           TxzEngineTts                         I  receivedSampleNum: 8069
+2024-07-16 15:06:11.819  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_generate_wave:435] 
+2024-07-16 15:06:11.819  2345-2385  COM                     TxzEngineTts                         D  --end-- ret = 8069
+2024-07-16 15:06:11.819  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.820  2345-2385  TXZ_NATIVE_TTS          TxzEngineTts                         I  [_ProcLoop] tts first play [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1976]
+2024-07-16 15:06:11.830  2138-2513  EGL_adreno              com.txznet.txz                       D  eglMakeCurrent: 0x96e7d020: ver 3 1 (tinfo 0xa6e0f4b0)
+2024-07-16 15:06:11.830  2345-2385  TXZ_NATIVE_TTS_IPC_CLI  TxzEngineTts                         I  [writeData] tts audio send write size=368942 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/ipc/client/UniEngineTts_IpcClientPri.cc:346]
+2024-07-16 15:06:11.831  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_generate_wave:430] 
+2024-07-16 15:06:11.831  2345-2385  COM                     TxzEngineTts                         D  --start-- handle = 0xc54a7a80, wavbuf = 0xc4e9c5c0, maxSampleNum = 22050
+2024-07-16 15:06:11.831  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.831  2138-2371  TXZ_NATIVE_TTS_IPC_SER  com.txznet.txz                       I  [proc_module_msg] tts audio recv size=368942 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/ipc/server/UniEngineTtsIpcPri.cc:191]
+2024-07-16 15:06:11.831  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  begin makeWavs
+2024-07-16 15:06:11.831  2138-2371  TXZ_NATIVE_TTS          com.txznet.txz                       I  [writeData] tts audio write buf size=23646 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/TXZAudioTrackAsync.cpp:168]
+2024-07-16 15:06:11.831  2138-2372  TXZ_NATIVE_TTS          com.txznet.txz                       I  [write_thread] tts audio msg size=0,buf size=23646 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/TXZAudioTrackAsync.cpp:65]
+2024-07-16 15:06:11.831  2138-2372  TXZ_NATIVE_TTS          com.txznet.txz                       I  [write_thread] tts audio real size=23646,buf size=0, msg package=0 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/TXZAudioTrackAsync.cpp:111]
+2024-07-16 15:06:11.831  2138-2372  TXZ_NATIVE_TTS          com.txznet.txz                       I  [write_thread] player first play [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/TXZAudioTrackAsync.cpp:115]
+2024-07-16 15:06:11.831  2345-2385  USCTTS_ENGINE           TxzEngineTts                         I  put num 789
+2024-07-16 15:06:11.832  2345-2385  USCTTS_ENGINE           TxzEngineTts                         I  receivedSampleNum: 789
+2024-07-16 15:06:11.832  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_generate_wave:435] 
+2024-07-16 15:06:11.832  2345-2385  COM                     TxzEngineTts                         D  --end-- ret = 789
+2024-07-16 15:06:11.832  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.838  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_generate_wave:430] 
+2024-07-16 15:06:11.838  2345-2385  COM                     TxzEngineTts                         D  --start-- handle = 0xc54a7a80, wavbuf = 0xc4e9c5c0, maxSampleNum = 22050
+2024-07-16 15:06:11.838  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.838  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  begin makeWavs
+2024-07-16 15:06:11.838  2345-2385  USCTTS_ENGINE           TxzEngineTts                         I  receivedSampleNum: 0
+2024-07-16 15:06:11.838  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start getPartial.
+2024-07-16 15:06:11.838  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start get next string from input.
+2024-07-16 15:06:11.838  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  find separator: .
+2024-07-16 15:06:11.838  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  next string is: .
+2024-07-16 15:06:11.838  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish get next string from input.
+2024-07-16 15:06:11.838  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish getPartial.
+2024-07-16 15:06:11.838  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  begin makeWavs
+2024-07-16 15:06:11.838  2345-2385  USCTTS_ENGINE           TxzEngineTts                         I  receivedSampleNum: 0
+2024-07-16 15:06:11.838  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_generate_wave:435] 
+2024-07-16 15:06:11.838  2345-2385  COM                     TxzEngineTts                         D  --end-- ret = 2200
+2024-07-16 15:06:11.838  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.854  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_generate_wave:430] 
+2024-07-16 15:06:11.854  2345-2385  COM                     TxzEngineTts                         D  --start-- handle = 0xc54a7a80, wavbuf = 0xc4e9c5c0, maxSampleNum = 22050
+2024-07-16 15:06:11.854  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.854  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start getPartial.
+2024-07-16 15:06:11.854  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  start get next string from input.
+2024-07-16 15:06:11.854  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  find separator: .
+2024-07-16 15:06:11.854  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  next string is: .
+2024-07-16 15:06:11.854  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish get next string from input.
+2024-07-16 15:06:11.854  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  finish getPartial.
+2024-07-16 15:06:11.854  2345-2385  USCTTS_ENGINE           TxzEngineTts                         D  begin makeWavs
+2024-07-16 15:06:11.854  2345-2385  USCTTS_ENGINE           TxzEngineTts                         I  receivedSampleNum: 0
+2024-07-16 15:06:11.854  2345-2385  COM                     TxzEngineTts                         D  DEBUG LOG_MOD_TTS [ais_lite_yzstts_generate_wave:435] 
+2024-07-16 15:06:11.854  2345-2385  COM                     TxzEngineTts                         D  --end-- ret = 0
+2024-07-16 15:06:11.854  2345-2385  COM                     TxzEngineTts                         D  
+2024-07-16 15:06:11.856  2345-2385  TXZ_NATIVE_TTS          TxzEngineTts                         I  [_ProcLoop] tts analyze end [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1923]
+2024-07-16 15:06:11.856  2138-2371  com.txznet...7::onEvent com.txznet.txz                       D  endSynthesizer[TtsOfflineImplV7.java:111]
+2024-07-16 15:06:12.340  2138-2372  TXZ_NATIVE_TTS          com.txznet.txz                       I  [write_thread] tts audio msg is null buf size=0 alrear write size=29624 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/TXZAudioTrackAsync.cpp:44]
+2024-07-16 15:06:12.340  2345-2370  TXZ_NATIVE_TTS          TxzEngineTts                         I  [operator()] tts player stop [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/OfflineTtsEngine.cpp:1931]
+2024-07-16 15:06:12.341  2138-2371  TXZ_NATIVE_TTS          com.txznet.txz                       I  [closeAudioOut] tts audio close buf size=29624, write audio size=29624 [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/tts/TXZAudioTrackAsync.cpp:234]
+2024-07-16 15:06:12.341  2138-2371  com.txznet...ack::close com.txznet.txz                       D  SysAudioTrack close :  stop[Proguard:5]
+2024-07-16 15:06:12.342  2138-2371  com.txznet...ack::close com.txznet.txz                       D  SysAudioTrack close :  release[Proguard:9]
+2024-07-16 15:06:12.342  2138-2371  com.txznet...seAudioOut com.txznet.txz                       D  TxzAudioSoouce close audio out[TxzAudioTrackImpl.java:181]
+2024-07-16 15:06:12.342  2138-2371  com.txznet...7::onEvent com.txznet.txz                       D  onPlayEnd[TtsOfflineImplV7.java:128]
+2024-07-16 15:06:12.342  2138-2178  com.txznet...:onSuccess com.txznet.txz                       D  speakText : next text[Proguard:1]
+2024-07-16 15:06:12.342  2138-2178  com.txznet...::O000O0Oo com.txznet.txz                       D  speakText end: id=5,stream=9,text=哈喽[Proguard:14]
+2024-07-16 15:06:12.342  2138-2178  TXZ                     com.txznet.txz                       D  [(O0000oo.java:1)#O0000o] onEndTts: 哈喽
+2024-07-16 15:06:12.342  2138-2178  com.txznet...::onEndTts com.txznet.txz                       E  onEndTtsTimeMap{mBeginTtsTime=292995, mEndTtsTime=276366, mBeginAsrTime=266320, mEndAsrTime=276360, mId=0}[Proguard:1]
+2024-07-16 15:06:12.343  2138-2178  com.txznet...0::O0000oO com.txznet.txz                       D  speakNext: queue=0[Proguard:2]
+2024-07-16 15:06:12.343  2138-2178  com.txznet...000o0::run com.txznet.txz                       D  speakText end onSuccess: id=5[Proguard:2]
+2024-07-16 15:06:12.343  2138-2178  com.txznet...ger::start com.txznet.txz                       D  startAsr stack[Proguard:7]
+2024-07-16 15:06:12.343  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  record status: doEnd, working=false[Proguard:23]
+2024-07-16 15:06:12.343  2138-2178  com.txznet...::O00000oO com.txznet.txz                       D  RecorderWin state:6[Proguard:2]
+2024-07-16 15:06:12.343  2138-2178  com.txznet...::O00000oO com.txznet.txz                       D  RecorderWin state:1[Proguard:2]
+2024-07-16 15:06:12.343  2138-2178  com.txznet...ssCallback com.txznet.txz                       D  onTtsSuccessCallback()[Proguard:1]
+2024-07-16 15:06:12.343  2138-2178  com.txznet...00OoO::run com.txznet.txz                       D  really speak next: queue=0[Proguard:1]
+2024-07-16 15:06:12.343  2138-2178  TXZ                     com.txznet.txz                       D  [(O0000oo.java:1)#O0000o] onEndTts: null
+2024-07-16 15:06:12.343  2138-2178  com.txznet...::onEndTts com.txznet.txz                       E  onEndTtsTimeMap{mBeginTtsTime=292995, mEndTtsTime=293588, mBeginAsrTime=266320, mEndAsrTime=276360, mId=0}[Proguard:1]
+2024-07-16 15:06:12.343  2138-2178  com.txznet...::O00000oO com.txznet.txz                       D  RecorderWin state:1[Proguard:2]
+2024-07-16 15:06:12.344  2138-2178  com.txznet...::O000000o com.txznet.txz                       I  com.txznet.txz.record.STATUS_CHANGED当前录音状态:RECORD_START:0[Proguard:158]
+2024-07-16 15:06:12.344  2138-2178  com.txznet...000OO::run com.txznet.txz                       D  pause: [Proguard:19]
+2024-07-16 15:06:12.344  2138-2178  com.txznet...000OO::run com.txznet.txz                       D  startAsr: mManual=true,mGrammar=0,bos=3000,eos=500[Proguard:50]
+2024-07-16 15:06:12.344  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  need stop wakeup: true[Proguard:30]
+2024-07-16 15:06:12.344  2138-2178  com.txznet...::O0000o00 com.txznet.txz                       D  Wakeup stop....[Proguard:1]
+2024-07-16 15:06:12.345  2138-2178  com.txznet...gine::logd com.txznet.txz                       D  stopWakeup, recordType 3, type 2, hash 78206148[MixEngine.java:1296]
+2024-07-16 15:06:12.345  2138-2178  DataEventLog            com.txznet.txz                       D  [(DataEventLog.java:28)#printVuiWakeupEvent] report dataId:108,vuiWakeupEvent:{"u32SdkVersion":1,"u32VuiEventType":3,"u64SessionId":2,"asrEvent":{"u32WakeupVolume":0,"u32WakeupEventType":2,"u32ErrorCode":0,"u32UsingAsrInnerCount":0,"msgAsrOption":{"fWakeupThreshold":-3.1,"fWakeupThresholdUser":-3.1,"fWakeupThresholdAsr":-3.1}}}
+2024-07-16 15:06:12.346  2138-2178  com.txznet...ntKeywords com.txznet.txz                       D  no change wakeup keywords[Proguard:4]
+2024-07-16 15:06:12.346  2138-2180  com.txznet...ntKeywords com.txznet.txz                       D  music:receive:handler:AIDL:com.txznet.txz,from:com.txznet.txz/comm.status.onEndTtsWithText[Proguard:4]
+2024-07-16 15:06:12.346  2138-2178  com.txznet...gine::logd com.txznet.txz                       D  setWakeupWords, recordType 3, type 2, hash 78206148[MixEngine.java:1296]
+2024-07-16 15:06:12.346  2138-2178  com.txznet...akeupWords com.txznet.txz                       W  wakeup keywords not change[MixEngine.java:862]
+2024-07-16 15:06:12.346  2138-2178  com.txznet...::O00000oo com.txznet.txz                       D  CORE:MUSIC:onBeginAsr[Proguard:1]
+2024-07-16 15:06:12.347  2401-2408  TXZ_NATIVE_ASR_IPC_CLI  TxzEngineKws                         I  [stopRecorder] stopRecorder [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/asr/ipc/client/UnisoundEngineAsr_IpcClientPri.cc:171]
+2024-07-16 15:06:12.348  2138-2400  com.txznet...rder::stop com.txznet.txz                       D  record client stop cmd: /127.0.0.1:33743[Proguard:5]
+2024-07-16 15:06:12.348  2138-2178  com.txznet...onBeginAsr com.txznet.txz                       E  onBeginAsrTimeMap{mBeginTtsTime=292995, mEndTtsTime=293589, mBeginAsrTime=266320, mEndAsrTime=276360, mId=0}[Proguard:1]
+2024-07-16 15:06:12.348  2116-2130  com.txznet...:preInvoke com.txznet.adapter                   D  music:receive:handler:AIDL:com.txznet.adapter,from:com.txznet.txz/comm.status.onEndTtsWithText[ServiceHandlerBase.java:38]
+2024-07-16 15:06:12.348  2254-2266  com.txznet...andlerBase com.txznet.debugtool                 D  [com.txznet.comm.remote.ServiceHandlerBase::preInvoke]music:receive:handler:AIDL:com.txznet.debugtool,from:com.txznet.txz/comm.status.onEndTtsWithText[ServiceHandlerBase.java:38]
+2024-07-16 15:06:12.349  2138-2305  com.txznet...::O000000o com.txznet.txz                       D  record server set recorder state[1]: /127.0.0.1:33743[Proguard:30]
+2024-07-16 15:06:12.349  2138-2305  com.txznet...::O000000o com.txznet.txz                       D  record server count RAW=0, AEC=0, REF=0, VOIP=0, FR=0[Proguard:65]
+2024-07-16 15:06:12.349  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  setRecogonizeState: from STATE_IDLE to STATE_STARTING_SCO[Proguard:21]
+2024-07-16 15:06:12.349  2138-2305  com.txznet...::O000000o com.txznet.txz                       D  quit stop recording because of needStopRecording = false[Proguard:24]
+2024-07-16 15:06:12.349  2138-2178  com.txznet...0OOoO::run com.txznet.txz                       D  playStartTips: STATE_STARTING_SCO[Proguard:1]
+2024-07-16 15:06:12.349  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  setRecogonizeState: from STATE_STARTING_SCO to STATE_PLAYING_START_TIP_VOICE[Proguard:21]
+2024-07-16 15:06:12.349  2138-2178  com.txznet...ayer::play com.txznet.txz                       D  beep play:293595[Proguard:3]
+2024-07-16 15:06:12.350  2116-2480  Adp_1.0.1....equester() com.txznet.adapter                   D   (ProtoUtil.java:64) action::com.txznet.txz.tts.stop,keyType::1110,params::[]
+2024-07-16 15:06:12.350  2116-2480  Adp_1.0.1....til.send() com.txznet.adapter                   D   (ProtoUtil.java:69) send requester:Request{keyType=1110, action='com.txznet.txz.tts.stop', params={}}
+2024-07-16 15:06:12.350  2116-2480  Adp_1.0.1....oto.send() com.txznet.adapter                   D   (AIDLProto.java:32) send:Request{keyType=1110, action='com.txznet.txz.tts.stop', params={}}
+2024-07-16 15:06:12.350  2116-2480  Adp_1.0.1....stOrAIDL() com.txznet.adapter                   D   (BaseTool.java:29) mailman: keyType  1110  action  com.txznet.txz.tts.stop o: [] 
+2024-07-16 15:06:12.350  2116-2129  com.txznet...:preInvoke com.txznet.adapter                   D  music:receive:handler:AIDL:com.txznet.adapter,from:com.txznet.txz/tool.settingmgr.setVolumeMuteNoReply[ServiceHandlerBase.java:38]
+2024-07-16 15:06:12.350  2116-2129  com.txznet...rolManager com.txznet.adapter                   D  TXZCarControlManagerpackageName: com.txznet.txz ,command：setVolumeMuteNoReply[TXZCarControlManager.java:4289]
+2024-07-16 15:06:12.350  2138-2180  com.txznet...:preInvoke com.txznet.txz                       D  music:receive:handler:AIDL:com.txznet.txz,from:com.txznet.txz/comm.status.onEndTtsWithText[Proguard:2]
+2024-07-16 15:06:12.350  2116-2129  Adp_1.0.1....eNoReply() com.txznet.adapter                   D   (SystemModule.java:158) setVolumeMute:All,mute:false
+2024-07-16 15:06:12.351  2401-2408  TXZ_NATIVE_ASR_IPC_CLI  TxzEngineKws                         I  [onEvent] event:10014, ASR EVENT RECORD STOP [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/asr/ipc/client/UnisoundEngineAsr_IpcClientPri.cc:107]
+2024-07-16 15:06:12.351  2116-2188  com.txznet...:preInvoke com.txznet.adapter                   D  music:receive:handler:AIDL:com.txznet.adapter,from:com.txznet.txz/comm.status.onEndTtsWithText[ServiceHandlerBase.java:38]
+2024-07-16 15:06:12.351  2138-2389  com.txznet...000Oo::run com.txznet.txz                       D  beep start play[Proguard:14]
+2024-07-16 15:06:12.351  2254-2317  com.txznet...andlerBase com.txznet.debugtool                 D  [com.txznet.comm.remote.ServiceHandlerBase::preInvoke]music:receive:handler:AIDL:com.txznet.debugtool,from:com.txznet.txz/comm.status.onEndTtsWithText[ServiceHandlerBase.java:38]
+2024-07-16 15:06:12.352  2138-2400  com.txznet...gine::logd com.txznet.txz                       D  onEvent 10014, recordType 3, type 2, hash 78206148[MixEngine.java:1296]
+2024-07-16 15:06:12.352  2138-2400  com.txznet...gine::logd com.txznet.txz                       D  ASR_EVENT_RECORDING_STOP, recordType 3, type 2, hash 78206148[MixEngine.java:1296]
+2024-07-16 15:06:12.353  2138-2180  com.txznet...:preInvoke com.txznet.txz                       D  music:receive:handler:AIDL:com.txznet.txz,from:com.txznet.txz/comm.status.onBeginAsr[Proguard:2]
+2024-07-16 15:06:12.354  2116-2130  com.txznet...:preInvoke com.txznet.adapter                   D  music:receive:handler:AIDL:com.txznet.adapter,from:com.txznet.txz/comm.status.onBeginAsr[ServiceHandlerBase.java:38]
+2024-07-16 15:06:12.354  2254-2267  com.txznet...andlerBase com.txznet.debugtool                 D  [com.txznet.comm.remote.ServiceHandlerBase::preInvoke]music:receive:handler:AIDL:com.txznet.debugtool,from:com.txznet.txz/comm.status.onBeginAsr[ServiceHandlerBase.java:38]
+2024-07-16 15:06:12.517  2138-2178  com.txznet...0OOo0::run com.txznet.txz                       D  play complete: STATE_PLAYING_START_TIP_VOICE[Proguard:1]
+2024-07-16 15:06:12.517  2138-2178  com.txznet...::O000000o com.txznet.txz                       D  setRecogonizeState: from STATE_PLAYING_START_TIP_VOICE to STATE_RECORDING[Proguard:21]
+2024-07-16 15:06:12.517  2138-2178  com.txznet...leCacheAEC com.txznet.txz                       D  setEnableCacheAEC enable = true[Proguard:1]
+2024-07-16 15:06:12.517  2138-2178  com.txznet...::O00000o0 com.txznet.txz                       D  QiWuPhoneRechargeManager::: getBeClearScene: isScene=false beClear=true[Proguard:1]
+2024-07-16 15:06:12.517  2138-2178  com.txznet...pExtParams com.txznet.txz                       D  fangde_wait_speechfalse[Proguard:30]
+2024-07-16 15:06:12.517  2138-2178  com.txznet...pExtParams com.txznet.txz                       D  genNlpExtParams strJson:{"fangde_wait_speech":false,"last_scene":"unknown","last_cmd":"ASK_FOR_NAME","fangde_token":"","clear_qiwu_recharge":true,"wan_mi_new_session":true,"qi_wu_new_session":true}[Proguard:31]
+2024-07-16 15:06:12.518  2138-2178  com.txznet...eSaveVoice com.txznet.txz                       D  save rf true[Proguard:8]
+2024-07-16 15:06:12.518  2138-2178  com.txznet...SaveRawPCM com.txznet.txz                       D  save pcm false[Proguard:8]
+2024-07-16 15:06:12.518  2138-2178  com.txznet...ner::start com.txznet.txz                       D  AsrType origin : ASR_MIX now : ASR_MIX[Proguard:26]
+2024-07-16 15:06:12.518  2138-2178  com.txznet...ner::start com.txznet.txz                       D  SpeechTimeout : 20000[Proguard:28]
+2024-07-16 15:06:12.518  2138-2448  com.txznet...r::O00000o com.txznet.txz                       D  TXZAudioRecorder reConnectCenter[Proguard:1]
+2024-07-16 15:06:12.519  2138-2448  com.txznet...r::release com.txznet.txz                       D  record client release: /127.0.0.1:33740[Proguard:14]
+2024-07-16 15:06:12.519  2138-2178  DataEventLog            com.txznet.txz                       D  [(DataEventLog.java:35)#printVuiAsrEvent] report dataId:95,vuiAsrEvent:{"u32SdkVersion":1,"u32VuiEventType":1,"u64SessionId":2,"asrEvent":{"u64SessionId":1721113572506,"u32AsrEngine":0,"strAsrResult":"","u32EventType":1,"asrEngineOption":{"u32LocalEngine":21,"u32BakNetEngine":0,"u32NetEngine":1},"u32ErrorCode":0,"u32AsrVolume":0,"strExJson":"","msgAsrOption":{"u32Manual":1,"u32Eos":500,"u32Bos":3000,"u32PlayBeepSound":1,"u32Grammar":0,"u32NeedStopWakeup":1,"u32AsrType":2,"strVoiceId":"1721113572506"},"u32AsrCount":2,"u32AsrEngineType":0}}
+2024-07-16 15:06:12.519  2138-2305  com.txznet...::O00000o0 com.txznet.txz                       D  record server remove recorder: /127.0.0.1:33740[Proguard:13]
+2024-07-16 15:06:12.519  2138-2305  com.txznet...::O00000o0 com.txznet.txz                       D  record server count RAW=0, AEC=0, REF=0[Proguard:32]
+2024-07-16 15:06:12.519  2138-2305  com.txznet...::O00000Oo com.txznet.txz                       D  release client: /127.0.0.1:33740[Proguard:2]
+2024-07-16 15:06:12.519  2138-2178  com.txznet...onnectTask com.txznet.txz                       D  mLocaled=true[Proguard:2]
+2024-07-16 15:06:12.519  2138-2178  com.txznet...eSaveVoice com.txznet.txz                       D  save rf true[Proguard:8]
+2024-07-16 15:06:12.519  2138-2178  com.txznet...SaveRawPCM com.txznet.txz                       D  save pcm false[Proguard:8]
+2024-07-16 15:06:12.519  2138-2178  com.txznet...oxy::start com.txznet.txz                       D  pass_yzs_activator[Proguard:23]
+2024-07-16 15:06:12.520  2138-2178  com.txznet...::startAsr com.txznet.txz                       D  eos : 700[LocalDicImpl.java:547]
+2024-07-16 15:06:12.520  2138-2452  TXZ                     com.txznet.txz                       D  [(NetAsrYunzhishengImplV7.java:470)#updateRecordType] startAsr: name= ASR_MIX; recordType= 3
+2024-07-16 15:06:12.520  2138-2452  TXZ                     com.txznet.txz                       D  [(NetAsrYunzhishengImplV7.java:493)#shouldAddAudioToFront] shouldAddAudioToFront= true; mIsFirstRecognizeAfterWinOpen= true
+2024-07-16 15:06:12.520  2138-2452  TXZ                     com.txznet.txz                       D  [(NetAsrYunzhishengImplV7.java:180)#startNoSpeakTiming] showNoSpeakError: delay=3000
+2024-07-16 15:06:12.520  2138-2452  TXZ                     com.txznet.txz                       D  [(NetAsrYunzhishengImplV7.java:197)#startWeakNetTiming] showWeakNetError: delay= 6000
+2024-07-16 15:06:12.521  2138-2452  TXZ                     com.txznet.txz                       D  [(NetAsrYunzhishengImplV7.java:835)#getStartParam] startParamStr= {"config":{"nlp_scene":0,"is_match":true,"nlp_ext":"{\"fangde_wait_speech\":false,\"last_scene\":\"unknown\",\"last_cmd\":\"ASK_FOR_NAME\",\"fangde_token\":\"\",\"clear_qiwu_recharge\":true,\"wan_mi_new_session\":true,\"qi_wu_new_session\":true}","gps":"116.4102494891809,39.91641192331382","sp":"audioCodec=pcm;modelType=incar_txz,general;voiceField=near;punctuated=false;variable=true;serverVad=true;vad_time=0.5","city":"北京市","start_sil":"3.0","appId":"34a8f216c3e1f91b86c647961c08a282","ack_timer":true,"full_duplex":false},"session_id":"fe757ff207454d438e18cc807562071a"}
+2024-07-16 15:06:12.522  2138-2452  com.txznet...rtRecorder com.txznet.txz                       D  instantAsr::TXZAudioSource openAudioIn, start beginSpeechTime = 293590[TXZAudioSource.java:146]
+2024-07-16 15:06:12.522  2138-2452  com.txznet...r::O00000o com.txznet.txz                       D  TXZAudioRecorder reConnectCenter[Proguard:1]
+2024-07-16 15:06:12.522  2138-2452  com.txznet...r::release com.txznet.txz                       D  record client release: /127.0.0.1:33742[Proguard:14]
+2024-07-16 15:06:12.522  2138-2305  com.txznet...::O00000o0 com.txznet.txz                       D  record server remove recorder: /127.0.0.1:33742[Proguard:13]
+2024-07-16 15:06:12.522  2138-2305  com.txznet...::O00000o0 com.txznet.txz                       D  record server count RAW=0, AEC=0, REF=0[Proguard:32]
+2024-07-16 15:06:12.522  2138-2305  com.txznet...::O00000Oo com.txznet.txz                       D  release client: /127.0.0.1:33742[Proguard:2]
+2024-07-16 15:06:12.533  2418-2424  TXZ_NATIVE_DIC          TxzEngineDict                        I  [startDic] dic start config={"do_post_proc":"false","vocab":"\/data\/user\/0\/com.txznet.txz\/engine\/engine_v7\/data\/ipc\/asrgvc\/model\/contact_dic_grammar.dat","grammar":"\/data\/user\/0\/com.txznet.txz\/engine\/engine_v7\/data\/ipc\/gc\/model\/txzDicTag_kws_grammar.dat","reload_grammar":"false"} [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/dic/ipc/client/ipc_client.cpp:318]
+2024-07-16 15:06:12.533  2138-2416  TXZ_NATIVE_DIC          com.txznet.txz                       I  [proc_module_msg] dic start recorder [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/dic/ipc/server/UnisoundEngineDicIpcPri.cc:163]
+2024-07-16 15:06:12.533  2138-2416  com.txznet...3::onEvent com.txznet.txz                       D  onEvent 10013[LocalDicImpl.java:118]
+2024-07-16 15:06:12.533  2138-2416  com.txznet...3::onEvent com.txznet.txz                       D  ASR_EVENT_RECORDING_START[LocalDicImpl.java:131]
+2024-07-16 15:06:12.533  2138-2416  com.txznet...rtRecorder com.txznet.txz                       D  instantAsr::TXZAudioSource openAudioIn, start beginSpeechTime = 293590[TXZAudioSource.java:146]
+2024-07-16 15:06:12.533  2138-2416  com.txznet...r::O00000o com.txznet.txz                       D  TXZAudioRecorder reConnectCenter[Proguard:1]
+2024-07-16 15:06:12.534  2138-2416  com.txznet...r::release com.txznet.txz                       D  record client release: /127.0.0.1:33739[Proguard:14]
+2024-07-16 15:06:12.534  2138-2305  com.txznet...::O00000o0 com.txznet.txz                       D  record server remove recorder: /127.0.0.1:33739[Proguard:13]
+2024-07-16 15:06:12.534  2138-2305  com.txznet...::O00000o0 com.txznet.txz                       D  record server count RAW=0, AEC=0, REF=0[Proguard:32]
+2024-07-16 15:06:12.534  2138-2305  com.txznet...::O00000Oo com.txznet.txz                       D  release client: /127.0.0.1:33739[Proguard:2]
+2024-07-16 15:06:12.631  2138-2458  TXZ                     com.txznet.txz                       D  [(NetAsrYunzhishengImplV7.java:854)#onResult] onNetResult= {"code":"0","rs":null,"msg":"success","session_id":"fe757ff207454d438e18cc807562071a","next_id":null,"request_id":"fe757ff207454d438e18cc807562071a","content":null,"data":null,"real_time_client":null,"txz_nlp":null,"current_package_num":0}
+2024-07-16 15:06:12.631  2138-2458  TXZ                     com.txznet.txz                       D  [(NetAsrYunzhishengImplV7.java:197)#startWeakNetTiming] showWeakNetError: delay= 6000
+2024-07-16 15:06:12.632  2138-2458  TXZ                     com.txznet.txz                       D  [(NetAsrYunzhishengImplV7.java:901)#handleResult] no valid content
+2024-07-16 15:06:12.721  2138-2305  com.txznet...::O00000Oo com.txznet.txz                       D  record server  create recorder: /127.0.0.1:33745[Proguard:9]
+2024-07-16 15:06:12.721  2138-2448  com.txznet...::O00000Oo com.txznet.txz                       D  record client create: /127.0.0.1:33745[Proguard:9]
+2024-07-16 15:06:12.721  2138-2448  com.txznet...tRecording com.txznet.txz                       D  record client start cmd: /127.0.0.1:33745, startTime = 293590[Proguard:5]
+2024-07-16 15:06:12.721  2138-2305  com.txznet...::O00oOoOo com.txznet.txz                       D  record server START_WITH_DATA got startTime=293590[Proguard:49]
+2024-07-16 15:06:12.721  2138-2305  com.txznet...::O000000o com.txznet.txz                       D  record server set recorder startTime[293590]: /127.0.0.1:33745[Proguard:70]
+2024-07-16 15:06:12.721  2138-2305  com.txznet...::O000000o com.txznet.txz                       D  record server set recorder state[2]: /127.0.0.1:33745[Proguard:30]
+2024-07-16 15:06:12.721  2138-2305  com.txznet...::O000000o com.txznet.txz                       D  record server count RAW=1, AEC=0, REF=0, VOIP=0, FR=0[Proguard:65]
+2024-07-16 15:06:12.721  2138-2305  com.txznet...::O000000o com.txznet.txz                       D  recorder count became nozero, start recording immediately[Proguard:6]
+2024-07-16 15:06:12.724  2138-2305  com.txznet...::O000000o com.txznet.txz                       D  record server  create recorder: /127.0.0.1:33746[Proguard:16]
+2024-07-16 15:06:12.724  2138-2452  com.txznet...::O00000Oo com.txznet.txz                       D  record client create: /127.0.0.1:33746[Proguard:9]
+2024-07-16 15:06:12.725  2138-2452  com.txznet...tRecording com.txznet.txz                       D  record client start cmd: /127.0.0.1:33746, startTime = 293590[Proguard:5]
+2024-07-16 15:06:12.725  2138-2305  com.txznet...::O00oOoOo com.txznet.txz                       D  record server START_WITH_DATA got startTime=293590[Proguard:49]
+2024-07-16 15:06:12.725  2138-2305  com.txznet...::O000000o com.txznet.txz                       D  record server set recorder startTime[293590]: /127.0.0.1:33746[Proguard:70]
+2024-07-16 15:06:12.725  2138-2305  com.txznet...::O000000o com.txznet.txz                       D  record server set recorder state[3]: /127.0.0.1:33746[Proguard:30]
+2024-07-16 15:06:12.725  2138-2305  com.txznet...::O000000o com.txznet.txz                       D  record server count RAW=1, AEC=1, REF=0, VOIP=0, FR=0[Proguard:65]
+2024-07-16 15:06:12.725  2138-2452  TxzOnlineAsrWrapper:    com.txznet.txz                       I  [TXZ_NATIVE_ASR_ONLINE] audiorecord startRecorder
+2024-07-16 15:06:12.725  2138-2728  TxzOnlineAsrWrapper:    com.txznet.txz                       D  asr online first record
+2024-07-16 15:06:12.725  2138-2452  TXZ::IMess...:sendEvent com.txznet.txz                       D  event[200705|0] from[*CUIManager] data_size=[21][message_module.cpp:97]
+2024-07-16 15:06:12.725  2138-2244  TXZ::CMess...patchEvent com.txznet.txz                       D  event[200705|0] from[*CUIManager] dispath event to[*CReportManager][message_dispatch_manager.cpp:265]
+2024-07-16 15:06:12.726  2138-2780  com.txznet...::O000000o com.txznet.txz                       D  set thread[RecWrite33746] pid[2138] tid[2780] priority: -2[Proguard:16]
+2024-07-16 15:06:12.736  2138-2416  com.txznet...::O00000Oo com.txznet.txz                       D  record client create: /127.0.0.1:33747[Proguard:9]
+2024-07-16 15:06:12.736  2138-2416  com.txznet...tRecording com.txznet.txz                       D  record client start cmd: /127.0.0.1:33747, startTime = 293590[Proguard:5]
+2024-07-16 15:06:12.736  2138-2305  com.txznet...::O000000o com.txznet.txz                       D  record server  create recorder: /127.0.0.1:33747[Proguard:16]
+2024-07-16 15:06:12.736  2138-2305  com.txznet...::O00oOoOo com.txznet.txz                       D  record server START_WITH_DATA got startTime=293590[Proguard:49]
+2024-07-16 15:06:12.737  2138-2305  com.txznet...::O000000o com.txznet.txz                       D  record server set recorder startTime[293590]: /127.0.0.1:33747[Proguard:70]
+2024-07-16 15:06:12.737  2138-2305  com.txznet...::O000000o com.txznet.txz                       D  record server set recorder state[3]: /127.0.0.1:33747[Proguard:30]
+2024-07-16 15:06:12.737  2138-2305  com.txznet...::O000000o com.txznet.txz                       D  record server count RAW=1, AEC=2, REF=0, VOIP=0, FR=0[Proguard:65]
+2024-07-16 15:06:12.737  2138-2178  com.txznet...gine::logd com.txznet.txz                       D  stopWakeup, recordType 3, type 2, hash 78206148[MixEngine.java:1296]
+2024-07-16 15:06:12.737  2138-2178  com.txznet...stopWakeup com.txznet.txz                       W  stop bWkStarted = false[MixEngine.java:839]
+2024-07-16 15:06:12.738  2138-2178  DataEventLog            com.txznet.txz                       D  [(DataEventLog.java:35)#printVuiAsrEvent] report dataId:100,vuiAsrEvent:{"u32SdkVersion":1,"u32VuiEventType":1,"u64SessionId":2,"asrEvent":{"u64SessionId":1721113572506,"u32AsrEngine":21,"strAsrResult":"","u32EventType":4,"asrEngineOption":{"u32LocalEngine":21,"u32BakNetEngine":0,"u32NetEngine":1},"u32ErrorCode":0,"u32AsrVolume":0,"strExJson":"","msgAsrOption":{"u32Manual":1,"u32Eos":500,"u32Bos":3000,"u32PlayBeepSound":1,"u32Grammar":0,"u32NeedStopWakeup":1,"u32AsrType":2,"strVoiceId":"1721113572506"},"u32AsrCount":2,"u32AsrEngineType":4}}
+2024-07-16 15:06:12.738  2138-2178  com.txznet...o::onStart com.txznet.txz                       D  startAsrRecord1721113572506[Proguard:2]
+2024-07-16 15:06:12.738  2138-2178  com.txznet...::O0000Oo0 com.txznet.txz                       D  CORE:MUSIC:onEndBeep[Proguard:1]
+2024-07-16 15:06:12.738  2138-2178  com.txznet...::O00000oO com.txznet.txz                       D  RecorderWin state:1[Proguard:2]
+2024-07-16 15:06:12.739  2138-2178  com.txznet...::O000000o com.txznet.txz                       I  com.txznet.txz.record.STATUS_CHANGED当前录音状态:RECORD_START:0[Proguard:158]
+2024-07-16 15:06:12.739  2138-2178  DataEventLog            com.txznet.txz                       D  [(DataEventLog.java:35)#printVuiAsrEvent] report dataId:100,vuiAsrEvent:{"u32SdkVersion":1,"u32VuiEventType":1,"u64SessionId":2,"asrEvent":{"u64SessionId":1721113572506,"u32AsrEngine":1,"strAsrResult":"","u32EventType":4,"asrEngineOption":{"u32LocalEngine":21,"u32BakNetEngine":0,"u32NetEngine":1},"u32ErrorCode":0,"u32AsrVolume":0,"strExJson":"","msgAsrOption":{"u32Manual":1,"u32Eos":500,"u32Bos":3000,"u32PlayBeepSound":1,"u32Grammar":0,"u32NeedStopWakeup":1,"u32AsrType":2,"strVoiceId":"1721113572506"},"u32AsrCount":2,"u32AsrEngineType":3}}
+2024-07-16 15:06:12.741  2138-2180  com.txznet...:preInvoke com.txznet.txz                       D  music:receive:handler:AIDL:com.txznet.txz,from:com.txznet.txz/comm.status.onBeepEnd[Proguard:2]
+2024-07-16 15:06:12.743  2254-2266  com.txznet...andlerBase com.txznet.debugtool                 D  [com.txznet.comm.remote.ServiceHandlerBase::preInvoke]music:receive:handler:AIDL:com.txznet.debugtool,from:com.txznet.txz/comm.status.onBeepEnd[ServiceHandlerBase.java:38]
+2024-07-16 15:06:12.743  2116-2129  com.txznet...:preInvoke com.txznet.adapter                   D  music:receive:handler:AIDL:com.txznet.adapter,from:com.txznet.txz/comm.status.onBeepEnd[ServiceHandlerBase.java:38]
+2024-07-16 15:06:12.778  2138-2475  com.txznet...yDurnation com.txznet.txz                       D  TraceCacheBuffer_PcmMono16K readByDurnation, millSecond=433, clock=293590[Proguard:1]
+2024-07-16 15:06:12.778  2138-2475  com.txznet...readBySize com.txznet.txz                       D  TraceCacheBuffer readBySize, dataLength=13856[Proguard:1]
+2024-07-16 15:06:12.778  2138-2475  com.txznet...readBySize com.txznet.txz                       D  TraceCacheBuffer readBySize buffer length=160000, write=107200[Proguard:4]
+2024-07-16 15:06:12.778  2138-2475  com.txznet...yDurnation com.txznet.txz                       D  TraceCacheBuffer_PcmMono16K readByDurnation, millSecond=434, clock=293590[Proguard:1]
+2024-07-16 15:06:12.778  2138-2475  com.txznet...readBySize com.txznet.txz                       D  TraceCacheBuffer readBySize, dataLength=13888[Proguard:1]
+2024-07-16 15:06:12.778  2138-2475  com.txznet...readBySize com.txznet.txz                       D  TraceCacheBuffer readBySize buffer length=160000, write=107200[Proguard:4]
+2024-07-16 15:06:12.781  2418-2424  TXZ_NATIVE_DIC          TxzEngineDict                        I  [feedData] dict first proc start [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/dic/ipc/client/ipc_client.cpp:620]
+2024-07-16 15:06:12.787  2418-2424  TXZ_NATIVE_DIC          TxzEngineDict                        I  [feedData] dict first proc end, proc time=7ms [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/dic/ipc/client/ipc_client.cpp:629]
+2024-07-16 15:06:13.096  2138-2458  TXZ                     com.txznet.txz                       D  [(NetAsrYunzhishengImplV7.java:854)#onResult] onNetResult= {"code":"0","rs":"DOING","msg":null,"session_id":"fe757ff207454d438e18cc807562071a","next_id":null,"request_id":"fe757ff207454d438e18cc807562071a","content":"嗯","data":null,"real_time_client":null,"txz_nlp":null,"current_package_num":5}
+2024-07-16 15:06:13.096  2138-2458  TXZ                     com.txznet.txz                       D  [(NetAsrYunzhishengImplV7.java:197)#startWeakNetTiming] showWeakNetError: delay= 6000
+2024-07-16 15:06:13.097  2138-2178  AsrManager              com.txznet.txz                       D  [(AsrManager.java:1)#startNoSpeechTiming] startNoSpeechTiming: enableDictation=true
+2024-07-16 15:06:13.097  2138-2178  TXZ                     com.txznet.txz                       D  [(O000OO0o.java:26)#onPartialResult] asr filter text partial text=嗯
+2024-07-16 15:06:13.519  2138-2178  com.txznet...0OOOo::run com.txznet.txz                       D  timeout: STATE_RECORDING[Proguard:1]
+2024-07-16 15:06:13.519  2138-2178  com.txznet...0OOOo::run com.txznet.txz                       E  no voice data[Proguard:3]
+2024-07-16 15:06:13.783  2138-2178  TXZ::IMess...:sendEvent com.txznet.txz                       D  event[272|0] from[*CUIManager] data_size=[204][message_module.cpp:97]
+2024-07-16 15:06:13.783  2138-2244  TXZ::CMess...patchEvent com.txznet.txz                       D  event[272|0] from[*CUIManager] dispath event to[*CTraceManager][message_dispatch_manager.cpp:265]
+2024-07-16 15:06:13.783  2138-2178  com.txznet...tifyStatus com.txznet.txz                       D  DataEventManager::143[Proguard:5]
+2024-07-16 15:06:13.783  2138-2244  TXZ::CTrac...aceHistory com.txznet.txz                       D  trace no need to save at few time[trace_manager.cpp:755]
+2024-07-16 15:06:13.844  2138-2178  com.txznet...pProWakeup com.txznet.txz                       D  stopProWakeup[Proguard:1]
+2024-07-16 15:06:13.956  2418-2424  TXZ_NATIVE_DIC          TxzEngineDict                        I  [feedData] dic real ratio = 0.197858,proc total pcm=1634ms [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/dic/ipc/client/ipc_client.cpp:645]
+2024-07-16 15:06:14.027  2418-2424  TXZ_NATIVE_DIC          TxzEngineDict                        I  [procResultDic] dic first result[1]=风#294640#295273#19, vad time[1]=[1050,0], sentence time[0]=[930,0],startDicRealTime=293590ms, proc total pcm=1709ms [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/dic/ipc/client/ipc_client.cpp:587]
+2024-07-16 15:06:14.027  2418-2424  TXZ_NATIVE_DIC          TxzEngineDict                        I  [procResultDic] dic result[1]=风#294640#295273#19, vad time[1]=[1050,0], sentence time[0]=[930,0],startDicRealTime=293590ms, proc total pcm=1709ms [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/dic/ipc/client/ipc_client.cpp:598]
+2024-07-16 15:06:14.086  2138-2180  com.txznet...::O000000o com.txznet.txz                       E  [FROM=com.txznet.txz,TO=com.txznet.resholder,CMD=comm.status.onBeginTts] timeout=30000[Proguard:14]
+2024-07-16 15:06:14.150  2418-2424  TXZ_NATIVE_DIC          TxzEngineDict                        I  [procResultDic] dic result[1]=风五#294640#295395#19, vad time[1]=[1050,0], sentence time[0]=[930,0],startDicRealTime=293590ms, proc total pcm=1859ms [E:/code/new_bareEngine/version_engine/unisound_engine/txzengine/src/main/cpp/cpp/dic/ipc/client/ipc_client.cpp:598]
+2024-07-16 15:06:14.353  2138-2330  TXZ::CBigD...ager::send com.txznet.txz                       I  send cmd[13|1] seq[280] bigdata(id=fa40b3834e8932501bb94503809941ae).[big_data_channel_manager.cpp:181]
+2024-07-16 15:06:14.353  2138-2330  TXZ::IMess...:sendEvent com.txznet.txz                       D  event[4194304|2] from[*CBigDataChannelManager] data_size=[152][message_module.cpp:97]
+2024-07-16 15:06:14.353  2138-2330  TXZ::CBigD...ager::send com.txznet.txz                       D  add PushMid=0[big_data_channel_manager.cpp:212]
+2024-07-16 15:06:14.353  2138-2244  TXZ::CMess...patchEvent com.txznet.txz                       D  event[4194304|2] from[*CBigDataChannelManager] dispath event to[*CUploadManager][message_dispatch_manager.cpp:265]
+2024-07-16 15:06:14.353  2138-2244  TXZ::CUplo...:addUpload com.txznet.txz                       I  upload(md5=e77d361a72147a572fbff625d7243049,size=106) data to queue ok.[upload_manager.cpp:378]
+2024-07-16 15:06:14.354  2138-2244  TXZ::CMess...::setTimer com.txznet.txz                       D  [*CUploadManager]setTimer[1], timeout[1000], times[0], data[0], expired[202263][message_dispatch_manager.cpp:428]
+2024-07-16 15:06:14.354  2138-2244  TXZ::TXZCo...lientWrite com.txznet.txz                       D  onClientWrite[txz_conn_client.cpp:117]
