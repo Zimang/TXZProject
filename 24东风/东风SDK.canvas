@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"df6bfa2e71fd4045","type":"group","x":510,"y":-467,"width":390,"height":414,"label":"init"},
+		{"id":"8a9652dab47ea2ea","type":"text","text":"testSDK","x":-243,"y":-232,"width":250,"height":60},
+		{"id":"860fbd85eb98b2dd","type":"text","text":"sdk","x":-540,"y":40,"width":250,"height":60},
+		{"id":"fd54b133beecccff","type":"text","text":"MainActivity\n![[24东风/assest/Pasted image 20240719102907.png]]","x":-1080,"y":40,"width":431,"height":438},
+		{"id":"c241739ae310d4b1","type":"text","text":"TTSCommandPanel","x":-1480,"y":-120,"width":250,"height":60},
+		{"id":"f0574dc89e57a558","type":"text","text":"music","x":-1760,"y":20,"width":250,"height":60},
+		{"id":"3d8073aa9b72403d","type":"text","text":"fm","x":-1760,"y":140,"width":250,"height":60},
+		{"id":"8b1b006b640159be","type":"text","text":"volume","x":-1760,"y":260,"width":250,"height":60},
+		{"id":"45839629afa2e49d","type":"text","text":"ac","x":-1760,"y":380,"width":250,"height":60},
+		{"id":"8588f21cc84f677a","type":"text","text":"assisttouch","x":-1760,"y":500,"width":250,"height":60},
+		{"id":"3ca7a09a1755a053","type":"text","text":"controlPanel","x":-1481,"y":-275,"width":250,"height":60},
+		{"id":"141393e359e83d86","type":"text","text":"SimpleSDKProxy","x":120,"y":-232,"width":250,"height":60},
+		{"id":"88ff84c2caaeff38","type":"text","text":"onSDKRequestShowOrHideTTS","x":530,"y":-447,"width":350,"height":67},
+		{"id":"d59b87b2cb3c3cf2","type":"text","text":"onSDKTTSEnableChange","x":530,"y":-299,"width":350,"height":67},
+		{"id":"2ff8ef4359e84127","type":"text","text":"onSDKReadyChange","x":530,"y":-140,"width":350,"height":67},
+		{"id":"d923a20eb8e4a12c","type":"text","text":"TTSCommandListener","x":-39,"y":480,"width":250,"height":60},
+		{"id":"6f05d1c144e5c111","type":"text","text":"public void onTTSCommandSend(TTSCommand ttsCommand, float input)","x":-220,"y":685,"width":612,"height":54}
+	],
+	"edges":[
+		{"id":"823937a690a31944","fromNode":"f0574dc89e57a558","fromSide":"right","toNode":"c241739ae310d4b1","toSide":"bottom"},
+		{"id":"8471c98d13c4fc85","fromNode":"3d8073aa9b72403d","fromSide":"right","toNode":"c241739ae310d4b1","toSide":"bottom"},
+		{"id":"89de238a96e30119","fromNode":"8b1b006b640159be","fromSide":"right","toNode":"c241739ae310d4b1","toSide":"bottom"},
+		{"id":"2d92b52af025dffc","fromNode":"45839629afa2e49d","fromSide":"right","toNode":"c241739ae310d4b1","toSide":"bottom"},
+		{"id":"02108cfac6b56c4a","fromNode":"8588f21cc84f677a","fromSide":"right","toNode":"c241739ae310d4b1","toSide":"bottom"},
+		{"id":"046d923a712e9141","fromNode":"c241739ae310d4b1","fromSide":"top","toNode":"3ca7a09a1755a053","toSide":"bottom"},
+		{"id":"603ce5603494c020","fromNode":"8a9652dab47ea2ea","fromSide":"right","toNode":"141393e359e83d86","toSide":"left"},
+		{"id":"79f164fa86016cfa","fromNode":"141393e359e83d86","fromSide":"right","toNode":"88ff84c2caaeff38","toSide":"left"},
+		{"id":"d4fb907b37ac7663","fromNode":"141393e359e83d86","fromSide":"right","toNode":"d59b87b2cb3c3cf2","toSide":"left"},
+		{"id":"a3b0229d12a0c05c","fromNode":"141393e359e83d86","fromSide":"right","toNode":"2ff8ef4359e84127","toSide":"left"},
+		{"id":"b158c5e594e61d37","fromNode":"d923a20eb8e4a12c","fromSide":"bottom","toNode":"6f05d1c144e5c111","toSide":"top"}
+	]
+}

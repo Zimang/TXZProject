@@ -11,31 +11,15 @@
             "id": "7bda5c97038ff434",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "24航天/航天青岛问题反馈.canvas",
-                "viewState": {
-                  "x": -1102.4000985000807,
-                  "y": -1928.417843157447,
-                  "zoom": -1.3333333333333328
-                }
-              }
-            }
-          },
-          {
-            "id": "e5bd4bb124e2ab6f",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "log/2024-07-18.md",
+                "file": "24航天/航天待办.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "log/2024-07-18.md",
+                "file": "24航天/航天待办.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "log/2024-07-18.md",
+                "file": "24航天/航天待办.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "log/2024-07-18.md"
+                "file": "24航天/航天待办.md"
               }
             }
           }
@@ -164,19 +148,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e5bd4bb124e2ab6f",
+  "active": "980e21d729854bd7",
   "lastOpenFiles": [
-    "assest/20240626-东风电驱-延擎-X6000协议表~719DB.tmp",
-    "assest/nzpB74E.tmp",
-    "assest/api_24_dongfeng.zip",
-    "assest/api_24_dongfeng/app/build/intermediates/project_dex_archive/debug/out/com/yanpower/ttssample/MainActivity.dex",
-    "assest/api_24_dongfeng/app/build/intermediates/project_dex_archive/debug/out/com/yanpower/ttssample/MainActivity$TestSDK.dex",
-    "assest/api_24_dongfeng/app/build/intermediates/javac/debug/classes/com/yanpower/ttssample/MainActivity.class",
-    "assest/api_24_dongfeng/app/build/intermediates/javac/debug/classes/com/yanpower/ttssample/MainActivity$TestSDK.class",
-    "assest/api_24_dongfeng/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/compile-output/com/yanpower/ttssample/MainActivity.class",
-    "assest/api_24_dongfeng/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/compile-output/com/yanpower/ttssample/MainActivity$TestSDK.class",
-    "assest/api_24_dongfeng/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/compile-output/com/yanpower/ttssample/MainActivity$1.class",
-    "assest/api_24_dongfeng/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/compile-output/com/yanpower/ttssample",
+    "assest/20240626-解放项目-问题反馈~99659.tmp",
+    "assest/20240626-解放项目-问题反馈~39DD1.tmp",
+    "assest/20240626-解放项目-语音指令表-v1.0.1~3990F.tmp",
+    "assest/20240426-航天青岛一汽项目-项目标准需求协议表~39100.tmp",
+    "assest/20240626-解放项目-问题反馈~C0D91.tmp",
+    "assest/TTSSample.zip",
+    "assest/TTSSERVICE_v3.1.2_95.apk.1",
+    "assest/TTSSERVICE 使用说明.docx",
+    "assest/~$20240426-航天青岛一汽项目-项目标准需求协议表.xlsx",
+    "assest/~$20240626-解放项目-语音指令表-v1.0.1.xlsx",
+    "assest/~$20240626-解放项目-问题反馈.xlsx",
+    "24航天/航天青岛问题反馈.canvas",
+    "24东风/东风SDK.canvas",
+    "24东风/assest/Pasted image 20240719102907.png",
+    "24东风/assest/Pasted image 20240719102746.png",
+    "Excalidraw/Drawing 2024-07-18 07.59.41.excalidraw.md",
+    "log/2024-07-18.md",
     "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-xxhdpi-v4/ic_launcher.webp",
     "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-xxhdpi-v4/ic_launcher_round.webp",
     "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-xxxhdpi-v4/ic_launcher_round.webp",
@@ -185,16 +175,11 @@
     "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-xhdpi-v4/ic_launcher.webp",
     "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-mdpi-v4/ic_launcher_round.webp",
     "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-mdpi-v4/ic_launcher.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-hdpi-v4/ic_launcher_round.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-hdpi-v4/ic_launcher.webp",
     "log/2024-07-20~21安排.md",
     "log/2024-07-17.md",
-    "log/2024-07-18.md",
     "log/2024-07-16.md",
     "log/2024-07-15.md",
-    "Excalidraw/Drawing 2024-07-18 07.59.41.excalidraw.md",
     "24航天/航天待办.md",
-    "24航天/航天青岛问题反馈.canvas",
     "log/2024-07-12.md",
     "canvas/东风延擎.canvas",
     "科大.canvas",
