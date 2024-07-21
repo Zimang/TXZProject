@@ -8,29 +8,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7bda5c97038ff434",
+            "id": "0f7fcda58eaa2d38",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "excalidraw",
               "state": {
-                "file": "24航天/航天青岛问题反馈.canvas",
-                "viewState": {
-                  "x": -1102.4000985000807,
-                  "y": -1928.417843157447,
-                  "zoom": -1.3333333333333328
-                }
+                "file": "Excalidraw/Drawing 2024-07-18 07.59.41.excalidraw.md"
               }
             }
           },
           {
-            "id": "e5bd4bb124e2ab6f",
+            "id": "97bfc37805224d2b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "log/2024-07-18.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.6.7"
               }
             }
           }
@@ -101,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "log/2024-07-18.md",
+                "file": "Excalidraw/Drawing 2024-07-18 07.59.41.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "log/2024-07-18.md",
+                "file": "Excalidraw/Drawing 2024-07-18 07.59.41.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "log/2024-07-18.md"
+                "file": "Excalidraw/Drawing 2024-07-18 07.59.41.excalidraw.md"
               }
             }
           }
@@ -155,50 +148,47 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "e5bd4bb124e2ab6f",
+  "active": "97bfc37805224d2b",
   "lastOpenFiles": [
-    "assest/20240626-东风电驱-延擎-X6000协议表~719DB.tmp",
-    "assest/nzpB74E.tmp",
-    "assest/api_24_dongfeng.zip",
-    "assest/api_24_dongfeng/app/build/intermediates/project_dex_archive/debug/out/com/yanpower/ttssample/MainActivity.dex",
-    "assest/api_24_dongfeng/app/build/intermediates/project_dex_archive/debug/out/com/yanpower/ttssample/MainActivity$TestSDK.dex",
-    "assest/api_24_dongfeng/app/build/intermediates/javac/debug/classes/com/yanpower/ttssample/MainActivity.class",
-    "assest/api_24_dongfeng/app/build/intermediates/javac/debug/classes/com/yanpower/ttssample/MainActivity$TestSDK.class",
-    "assest/api_24_dongfeng/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/compile-output/com/yanpower/ttssample/MainActivity.class",
-    "assest/api_24_dongfeng/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/compile-output/com/yanpower/ttssample/MainActivity$TestSDK.class",
-    "assest/api_24_dongfeng/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/compile-output/com/yanpower/ttssample/MainActivity$1.class",
-    "assest/api_24_dongfeng/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/compile-output/com/yanpower/ttssample",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-xxhdpi-v4/ic_launcher.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-xxhdpi-v4/ic_launcher_round.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-xxxhdpi-v4/ic_launcher_round.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-xxxhdpi-v4/ic_launcher.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-xhdpi-v4/ic_launcher_round.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-xhdpi-v4/ic_launcher.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-mdpi-v4/ic_launcher_round.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-mdpi-v4/ic_launcher.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-hdpi-v4/ic_launcher_round.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-hdpi-v4/ic_launcher.webp",
     "log/2024-07-20~21安排.md",
-    "log/2024-07-17.md",
     "log/2024-07-18.md",
-    "log/2024-07-16.md",
-    "log/2024-07-15.md",
+    "assest/api_24_dongfeng.zip",
+    "24东风/安静录二次.pcm",
+    "24东风/安静录.pcm",
+    "24东风/noEffect.pcm",
+    "24东风/16bit_16000hz_1721284071434_stereo.pcm",
+    "24东风/16bit_16000hz_1721283897528_stereo.pcm",
+    "24东风/16bit_16000hz_1721276341333_stereo.pcm",
+    "24东风/16bit_16000hz_1721273858493_stereo.pcm",
+    "24东风",
     "Excalidraw/Drawing 2024-07-18 07.59.41.excalidraw.md",
+    "2024-07-20~21安排.md",
+    "科大.canvas",
+    "Excalidraw",
     "24航天/航天待办.md",
     "24航天/航天青岛问题反馈.canvas",
     "log/2024-07-12.md",
+    "log/2024-07-15.md",
+    "log/2024-07-16.md",
+    "log/2024-07-17.md",
+    "log/assets/image-20240716120722564.png",
+    "航天青岛问题反馈.canvas",
     "canvas/东风延擎.canvas",
-    "科大.canvas",
+    "assest/Pasted image 20240711195526.png",
+    "assest/Pasted image 20240711172529.png",
+    "canvas/assest/Pasted image 20240710172906.png",
     "2024-07-10.md",
+    "Pasted image 20240710172613.png",
+    "Pasted image 20240710172544.png",
     "Welcome.md"
   ]
 }
