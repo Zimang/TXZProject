@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b09ee6afc699507f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,7 +159,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "980e21d729854bd7",
+  "active": "b09ee6afc699507f",
   "lastOpenFiles": [
     "assest/20240626-解放项目-问题反馈~99659.tmp",
     "assest/20240626-解放项目-问题反馈~39DD1.tmp",
