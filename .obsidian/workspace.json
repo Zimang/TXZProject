@@ -11,24 +11,11 @@
             "id": "0f7fcda58eaa2d38",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-07-18 07.59.41.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "97bfc37805224d2b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-18 07.59.41.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-18 07.59.41.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-07-18 07.59.41.excalidraw.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -143,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,25 +139,31 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "97bfc37805224d2b",
+  "active": "0f7fcda58eaa2d38",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "log/2024-07-22.md",
     "log/2024-07-20~21安排.md",
+    "assest/Pasted image 20240711172529.png",
+    "assest/~$20240626-解放项目-问题反馈.xlsx",
+    "24航天/航天待办.md",
+    "24航天/航天青岛问题反馈.canvas",
+    "Excalidraw/Drawing 2024-07-18 07.59.41.excalidraw.md",
+    "assest/TTSSample.zip",
+    "assest/TTSSERVICE_v3.1.2_95.apk.1",
+    "assest/TTSSERVICE 使用说明.docx",
+    "24东风/东风SDK.canvas",
+    "24东风/assest/Pasted image 20240719102907.png",
+    "24东风/assest/Pasted image 20240719102746.png",
+    "24东风/assest",
     "log/2024-07-18.md",
     "assest/api_24_dongfeng.zip",
     "24东风/安静录二次.pcm",
     "24东风/安静录.pcm",
     "24东风/noEffect.pcm",
     "24东风/16bit_16000hz_1721284071434_stereo.pcm",
-    "24东风/16bit_16000hz_1721283897528_stereo.pcm",
-    "24东风/16bit_16000hz_1721276341333_stereo.pcm",
-    "24东风/16bit_16000hz_1721273858493_stereo.pcm",
-    "24东风",
-    "Excalidraw/Drawing 2024-07-18 07.59.41.excalidraw.md",
     "2024-07-20~21安排.md",
     "科大.canvas",
-    "Excalidraw",
-    "24航天/航天待办.md",
-    "24航天/航天青岛问题反馈.canvas",
     "log/2024-07-12.md",
     "log/2024-07-15.md",
     "log/2024-07-16.md",
@@ -184,7 +172,6 @@
     "航天青岛问题反馈.canvas",
     "canvas/东风延擎.canvas",
     "assest/Pasted image 20240711195526.png",
-    "assest/Pasted image 20240711172529.png",
     "canvas/assest/Pasted image 20240710172906.png",
     "2024-07-10.md",
     "Pasted image 20240710172613.png",
