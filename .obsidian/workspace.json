@@ -8,34 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7bda5c97038ff434",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "log/2024-07-22.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b09ee6afc699507f",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
-          },
-          {
             "id": "4747d3cded67bcf9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tamplate/24七八九月份.md",
+                "file": "log/2024-07-22.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,24 +148,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7bda5c97038ff434",
+  "active": "4747d3cded67bcf9",
   "lastOpenFiles": [
-    "assest/20240626-解放项目-问题反馈~0D126.tmp",
+    "assest/20240626-解放项目-语音指令表-v1.0.1~C396B.tmp",
+    "assest/20240626-解放项目-问题反馈~C2E30.tmp",
+    "assest/20240426-航天青岛一汽项目-项目标准需求协议表~6E939.tmp",
+    "assest/20240426-航天青岛一汽项目-项目标准需求协议表~02E91.tmp",
+    "assest/20240626-解放项目-问题反馈~4C667.tmp",
+    "assest/20240426-航天青岛一汽项目-项目标准需求协议表~4962F.tmp",
     "assest/~$20240626-解放项目-问题反馈.xlsx",
+    "24航天/航天待办.md",
+    "assest/20240426-航天青岛一汽项目-项目标准需求协议表~656E4.tmp",
+    "assest/20240426-航天青岛一汽项目-项目标准需求协议表~44077.tmp",
+    "tamplate/24七八九月份.md",
+    "24航天/航天青岛问题反馈.canvas",
+    "科大.canvas",
+    "log/2024-07-22.md",
     "assest/~$20240426-航天青岛一汽项目-项目标准需求协议表.xlsx",
     "assest/~$20240626-解放项目-语音指令表-v1.0.1.xlsx",
-    "tamplate/24七八九月份.md",
-    "log/2024-07-22.md",
-    "24航天/航天待办.md",
-    "tamplate",
     "conflict-files-obsidian-git.md",
-    "assest/20240626-解放项目-问题反馈~99659.tmp",
-    "assest/20240626-解放项目-问题反馈~39DD1.tmp",
-    "assest/20240626-解放项目-语音指令表-v1.0.1~3990F.tmp",
-    "assest/20240426-航天青岛一汽项目-项目标准需求协议表~39100.tmp",
-    "assest/20240626-解放项目-问题反馈~C0D91.tmp",
-    "assest/TTSSample.zip",
-    "24航天/航天青岛问题反馈.canvas",
     "24东风/东风SDK.canvas",
     "24东风/assest/Pasted image 20240719102907.png",
     "24东风/assest/Pasted image 20240719102746.png",
@@ -207,7 +186,6 @@
     "log/2024-07-15.md",
     "log/2024-07-12.md",
     "canvas/东风延擎.canvas",
-    "科大.canvas",
     "2024-07-10.md",
     "Welcome.md"
   ]
