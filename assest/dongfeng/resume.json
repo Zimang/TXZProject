@@ -1,0 +1,1435 @@
+{ 
+  "音乐控制: MusicControlCommand": {
+    "功能模块": [
+      {
+        "语音指令": {
+          "cmd_play_music": [
+            "Play music"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_play_music",
+              "funcName": "playMusic",
+              "staticString": "PLAY_MUSIC",
+              "标签": "播放音乐"
+            }
+          ],
+          "交互逻辑": "打开音乐界面",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_close_music": [
+            "Close music"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_close_music",
+              "funcName": "closeMusic",
+              "staticString": "CLOSE_MUSIC",
+              "标签": "关闭音乐"
+            }
+          ],
+          "交互逻辑": "停止播放并退出界面",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_previous_track": [
+            "Previous track"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_previous_track",
+              "funcName": "previousTrack",
+              "staticString": "PREVIOUS_TRACK",
+              "标签": "上一曲"
+            }
+          ],
+          "交互逻辑": "执行播放上一曲操作",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_next_track": [
+            "Next track"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_next_track",
+              "funcName": "nextTrack",
+              "staticString": "NEXT_TRACK",
+              "标签": "下一曲"
+            }
+          ],
+          "交互逻辑": "执行播放下一曲操作",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_resume_play": [
+            "Resume play"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_resume_play",
+              "funcName": "resumePlay",
+              "staticString": "RESUME_PLAY",
+              "标签": "继续播放"
+            }
+          ],
+          "交互逻辑": "继续播放",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_pause_music": [
+            "Pause music"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_pause_music",
+              "funcName": "pauseMusic",
+              "staticString": "PAUSE_MUSIC",
+              "标签": "暂停播放"
+            }
+          ],
+          "交互逻辑": "暂停播放",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      }
+    ]
+  },
+  "返回桌面: ReturnToHomeCommand": {
+    "功能模块": [
+      {
+        "语音指令": {
+          "cmd_return_home": [
+            "Homepage"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_return_home",
+              "funcName": "returnHome",
+              "staticString": "RETURN_HOME",
+              "标签": "返回桌面"
+            }
+          ],
+          "交互逻辑": "跳转至桌面",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      }
+    ]
+  },
+  "视频控制: VideoControlCommand": {
+    "功能模块": [
+      {
+        "语音指令": {
+          "cmd_open_video": [
+            "Open video"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_open_video",
+              "funcName": "openVideo",
+              "staticString": "OPEN_VIDEO",
+              "标签": "播放视频"
+            }
+          ],
+          "交互逻辑": "打开视频app界面",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_close_video": [
+            "Close video"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_close_video",
+              "funcName": "closeVideo",
+              "staticString": "CLOSE_VIDEO",
+              "标签": "关闭视频"
+            }
+          ],
+          "交互逻辑": "停止播放并退出界面",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      }
+    ]
+  },
+  "收音机控制: RadioControlCommand": {
+    "功能模块": [
+      {
+        "语音指令": {
+          "cmd_open_radio": [
+            "Open radio"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_open_radio",
+              "funcName": "openRadio",
+              "staticString": "OPEN_RADIO",
+              "标签": "打开收音机"
+            }
+          ],
+          "交互逻辑": "打开系统收音机界面并播放",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_close_radio": [
+            "Close radio"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_close_radio",
+              "funcName": "closeRadio",
+              "staticString": "CLOSE_RADIO",
+              "标签": "关闭收音机"
+            }
+          ],
+          "交互逻辑": "关闭收音机并返回桌面",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_scan_forward": [
+            "Scan forward"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_scan_forward",
+              "funcName": "scanForward",
+              "staticString": "SCAN_FORWARD",
+              "标签": "向前搜索"
+            }
+          ],
+          "交互逻辑": "执行播放上一个频道操作。",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_previous_channel": [
+            "Previous channel"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_previous_channel",
+              "funcName": "previousChannel",
+              "staticString": "PREVIOUS_CHANNEL",
+              "标签": "上一频道"
+            }
+          ],
+          "交互逻辑": "执行播放上一个频道操作。",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_scan_back": [
+            "Scan back"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_scan_back",
+              "funcName": "scanBack",
+              "staticString": "SCAN_BACK",
+              "标签": "向后搜索"
+            }
+          ],
+          "交互逻辑": "执行播放下一个频道操作。",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_next_channel": [
+            "Next channel"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_next_channel",
+              "funcName": "nextChannel",
+              "staticString": "NEXT_CHANNEL",
+              "标签": "下一频道"
+            }
+          ],
+          "交互逻辑": "执行播放下一个频道操作。",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      }
+    ]
+  },
+  "蓝牙控制: BluetoothControlCommand": {
+    "功能模块": [
+      {
+        "语音指令": {
+          "cmd_open_bluetooth": [
+            "Open bluetooth"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_open_bluetooth",
+              "funcName": "openBluetooth",
+              "staticString": "OPEN_BLUETOOTH",
+              "标签": "打开蓝牙"
+            }
+          ],
+          "交互逻辑": "跳转至蓝牙界面且打开蓝牙",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_close_bluetooth": [
+            "Close bluetooth"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_close_bluetooth",
+              "funcName": "closeBluetooth",
+              "staticString": "CLOSE_BLUETOOTH",
+              "标签": "关闭蓝牙"
+            }
+          ],
+          "交互逻辑": "跳转至蓝牙界面且关闭蓝牙",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      }
+    ]
+  },
+  "设置和wifi: SettingsAndWifiControlCommand": {
+    "功能模块": [
+      {
+        "语音指令": {
+          "cmd_open_settings": [
+            "Open settings"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_open_settings",
+              "funcName": "openSettings",
+              "staticString": "OPEN_SETTINGS",
+              "标签": "打开设置"
+            }
+          ],
+          "交互逻辑": "跳转至设置界面且打开设置",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_close_settings": [
+            "Close settings"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_close_settings",
+              "funcName": "closeSettings",
+              "staticString": "CLOSE_SETTINGS",
+              "标签": "关闭设置"
+            }
+          ],
+          "交互逻辑": "跳转至设置界面且关闭设置",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_turn_on_wifi": [
+            "Turn on wifi"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_turn_on_wifi",
+              "funcName": "turnOnWifi",
+              "staticString": "TURN_ON_WIFI",
+              "标签": "打开WIFI"
+            }
+          ],
+          "交互逻辑": "跳转至WIFI界面且打开WIFI",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_turn_off_wifi": [
+            "Turn off wifi"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_turn_off_wifi",
+              "funcName": "turnOffWifi",
+              "staticString": "TURN_OFF_WIFI",
+              "标签": "关闭WIFI"
+            }
+          ],
+          "交互逻辑": "跳转至WIFI界面且关闭WIFI",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      }
+    ]
+  },
+  "音量控制: VolumeControlCommand": {
+    "功能模块": [
+      {
+        "语音指令": {
+          "cmd_mute_volume": [
+            "Mute volume"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_mute_volume",
+              "funcName": "muteVolume",
+              "staticString": "MUTE_VOLUME",
+              "标签": "静音"
+            }
+          ],
+          "交互逻辑": "控制系统音量且关闭音量",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_unmute_volume": [
+            "Unmute volume"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_unmute_volume",
+              "funcName": "unmuteVolume",
+              "staticString": "UNMUTE_VOLUME",
+              "标签": "取消静音"
+            }
+          ],
+          "交互逻辑": "控制系统音量且打开音量",
+          "反馈语": "Sound is on | Mute is off | Sound is enabled",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_volume_up": [
+            "Volume up"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_volume_up",
+              "funcName": "volumeUp",
+              "staticString": "VOLUME_UP",
+              "标签": "音量调大"
+            }
+          ],
+          "交互逻辑": "控制系统音量且调高音量",
+          "反馈语": "Volume increased | Volume raised",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_volume_down": [
+            "Volume down"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_volume_down",
+              "funcName": "volumeDown",
+              "staticString": "VOLUME_DOWN",
+              "标签": "音量调小"
+            }
+          ],
+          "交互逻辑": "控制系统音量且调低音量",
+          "反馈语": "Volume decreased | Volume lowered",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      }
+    ]
+  },
+ 
+  "空调控制: AirConditioningControlCommand": {
+    "功能模块": [
+      {
+        "语音指令": {
+          "cmd_open_air_conditioning": [
+            "open the air conditioning"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_open_air_conditioning",
+              "funcName": "openAirConditioning",
+              "staticString": "OPEN_AIR_CONDITIONING",
+              "标签": "打开空调"
+            }
+          ],
+          "交互逻辑": "控制空调系统并执行打开空调操作",
+          "反馈语": "Air conditioner is on",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_close_air_conditioning": [
+            "close the air conditioning"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_close_air_conditioning",
+              "funcName": "closeAirConditioning",
+              "staticString": "CLOSE_AIR_CONDITIONING",
+              "标签": "关闭空调"
+            }
+          ],
+          "交互逻辑": "控制空调系统并执行关闭空调操作",
+          "反馈语": "Air conditioner is off",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_turn_up_temperature": [
+            "turn up the temperature"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_turn_up_temperature",
+              "funcName": "turnUpTemperature",
+              "staticString": "TURN_UP_TEMPERATURE",
+              "标签": "调高温度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调高温度一度",
+          "反馈语": "Temperature increased",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_turn_down_temperature": [
+            "turn down the temperature"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_turn_down_temperature",
+              "funcName": "turnDownTemperature",
+              "staticString": "TURN_DOWN_TEMPERATURE",
+              "标签": "调低温度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调低温度一度",
+          "反馈语": "Temperature decreased",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_maximum_temperature": [
+            "maximum temperature"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_maximum_temperature",
+              "funcName": "setMaximumTemperature",
+              "staticString": "MAXIMUM_TEMPERATURE",
+              "标签": "最高温度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调至最高温度",
+          "反馈语": "Temperature set to maximum",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_minimum_temperature": [
+            "minimum temperature"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_minimum_temperature",
+              "funcName": "setMinimumTemperature",
+              "staticString": "MINIMUM_TEMPERATURE",
+              "标签": "最低温度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调至最低温度",
+          "反馈语": "Temperature set to minimum",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_increasing_wind_speed": [
+            "increasing the wind speed"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_increasing_wind_speed",
+              "funcName": "increaseWindSpeed",
+              "staticString": "INCREASE_WIND_SPEED",
+              "标签": "提高风速"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调高风速一档",
+          "反馈语": "Fan speed increased",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_decreasing_wind_speed": [
+            "decreasing the wind speed"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_decreasing_wind_speed",
+              "funcName": "decreaseWindSpeed",
+              "staticString": "DECREASE_WIND_SPEED",
+              "标签": "降低风速"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调低风速一档",
+          "反馈语": "Fan speed decreased",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_maximum_wind_speed": [
+            "maximum wind speed"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_maximum_wind_speed",
+              "funcName": "setMaximumWindSpeed",
+              "staticString": "MAXIMUM_WIND_SPEED",
+              "标签": "最大风速"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调至最高风速",
+          "反馈语": "Fan speed set to maximum",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_minimum_wind_speed": [
+            "minimum wind speed"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_minimum_wind_speed",
+              "funcName": "setMinimumWindSpeed",
+              "staticString": "MINIMUM_WIND_SPEED",
+              "标签": "最小风速"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调至最低风速",
+          "反馈语": "Fan speed set to minimum",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_open_inner_circulation": [
+            "open inner circulation"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_open_inner_circulation",
+              "funcName": "openInnerCirculation",
+              "staticString": "OPEN_INNER_CIRCULATION",
+              "标签": "打开内循环"
+            }
+          ],
+          "交互逻辑": "控制空调系统并打开内循环",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_close_inner_circulation": [
+            "close inner circulation"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_close_inner_circulation",
+              "funcName": "closeInnerCirculation",
+              "staticString": "CLOSE_INNER_CIRCULATION",
+              "标签": "关闭内循环"
+            }
+          ],
+          "交互逻辑": "控制空调系统并关闭内循环",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_set_sixteen_degrees": [
+            "set sixteen degrees"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_set_sixteen_degrees",
+              "funcName": "setSixteenDegrees",
+              "staticString": "SET_SIXTEEN_DEGREES",
+              "标签": "空调调到十六度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调到指定（X）温度",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_set_seventeen_degrees": [
+            "set seventeen degrees"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_set_seventeen_degrees",
+              "funcName": "setSeventeenDegrees",
+              "staticString": "SET_SEVENTEEN_DEGREES",
+              "标签": "空调调到十七度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调到指定（X）温度",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_set_eighteen_degrees": [
+            "set eighteen degrees"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_set_eighteen_degrees",
+              "funcName": "setEighteenDegrees",
+              "staticString": "SET_EIGHTEEN_DEGREES",
+              "标签": "空调调到十八度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调到指定（X）温度",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_set_nineteen_degrees": [
+            "set nineteen degrees"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_set_nineteen_degrees",
+              "funcName": "setNineteenDegrees",
+              "staticString": "SET_NINETEEN_DEGREES",
+              "标签": "空调调到十九度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调到指定（X）温度",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_set_twenty_degrees": [
+            "set twenty degrees"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_set_twenty_degrees",
+              "funcName": "setTwentyDegrees",
+              "staticString": "SET_TWENTY_DEGREES",
+              "标签": "空调调到二十度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调到指定（X）温度",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_set_twenty_one_degrees": [
+            "set twenty one degrees"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_set_twenty_one_degrees",
+              "funcName": "setTwentyOneDegrees",
+              "staticString": "SET_TWENTY_ONE_DEGREES",
+              "标签": "空调调到二十一度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调到指定（X）温度",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_set_twenty_two_degrees": [
+            "set twenty two degrees"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_set_twenty_two_degrees",
+              "funcName": "setTwentyTwoDegrees",
+              "staticString": "SET_TWENTY_TWO_DEGREES",
+              "标签": "空调调到二十二度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调到指定（X）温度",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_set_twenty_three_degrees": [
+            "set twenty three degrees"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_set_twenty_three_degrees",
+              "funcName": "setTwentyThreeDegrees",
+              "staticString": "SET_TWENTY_THREE_DEGREES",
+              "标签": "空调调到二十三度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调到指定（X）温度",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_set_twenty_four_degrees": [
+            "set twenty four degrees"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_set_twenty_four_degrees",
+              "funcName": "setTwentyFourDegrees",
+              "staticString": "SET_TWENTY_FOUR_DEGREES",
+              "标签": "空调调到二十四度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调到指定（X）温度",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_set_twenty_five_degrees": [
+            "set twenty five degrees"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_set_twenty_five_degrees",
+              "funcName": "setTwentyFiveDegrees",
+              "staticString": "SET_TWENTY_FIVE_DEGREES",
+              "标签": "空调调到二十五度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调到指定（X）温度",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_set_twenty_six_degrees": [
+            "set twenty six degrees"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_set_twenty_six_degrees",
+              "funcName": "setTwentySixDegrees",
+              "staticString": "SET_TWENTY_SIX_DEGREES",
+              "标签": "空调调到二十六度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调到指定（X）温度",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_set_twenty_seven_degrees": [
+            "set twenty seven degrees"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_set_twenty_seven_degrees",
+              "funcName": "setTwentySevenDegrees",
+              "staticString": "SET_TWENTY_SEVEN_DEGREES",
+              "标签": "空调调到二十七度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调到指定（X）温度",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_set_twenty_eight_degrees": [
+            "set twenty eight degrees"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_set_twenty_eight_degrees",
+              "funcName": "setTwentyEightDegrees",
+              "staticString": "SET_TWENTY_EIGHT_DEGREES",
+              "标签": "空调调到二十八度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调到指定（X）温度",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_set_twenty_nine_degrees": [
+            "set twenty nine degrees"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_set_twenty_nine_degrees",
+              "funcName": "setTwentyNineDegrees",
+              "staticString": "SET_TWENTY_NINE_DEGREES",
+              "标签": "空调调到二十九度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调到指定（X）温度",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_set_thirty_degrees": [
+            "set thirty degrees"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_set_thirty_degrees",
+              "funcName": "setThirtyDegrees",
+              "staticString": "SET_THIRTY_DEGREES",
+              "标签": "空调调到三十度"
+            }
+          ],
+          "交互逻辑": "控制空调系统并调到指定（X）温度",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_defrosting_before_opening": [
+            "defrosting before opening"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_defrosting_before_opening",
+              "funcName": "defrostingBeforeOpening",
+              "staticString": "DEFROSTING_BEFORE_OPENING",
+              "标签": "打开前除霜"
+            }
+          ],
+          "交互逻辑": "控制空调系统并打开前除霜",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_defrosting_before_closure": [
+            "defrosting before closure"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_defrosting_before_closure",
+              "funcName": "defrostingBeforeClosure",
+              "staticString": "DEFROSTING_BEFORE_CLOSURE",
+              "标签": "关闭前除霜"
+            }
+          ],
+          "交互逻辑": "控制空调系统并前关闭除霜",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_open_blow_surface": [
+            "open the blow surface"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_open_blow_surface",
+              "funcName": "openBlowSurface",
+              "staticString": "OPEN_BLOW_SURFACE",
+              "标签": "打开吹面"
+            }
+          ],
+          "交互逻辑": "控制空调系统并打开吹面",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_open_blow_surface_and_foot": [
+            "open the blowing surface and blow the foot"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_open_blow_surface_and_foot",
+              "funcName": "openBlowSurfaceAndFoot",
+              "staticString": "OPEN_BLOW_SURFACE_AND_FOOT",
+              "标签": "打开吹面吹脚"
+            }
+          ],
+          "交互逻辑": "控制空调系统并打开吹面吹脚",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_open_blow_foot": [
+            "open your feet"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_open_blow_foot",
+              "funcName": "openBlowFoot",
+              "staticString": "OPEN_BLOW_FOOT",
+              "标签": "打开吹脚"
+            }
+          ],
+          "交互逻辑": "控制空调系统并打开吹脚",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_open_blow_foot_defrost": [
+            "open the blow-foot defrost"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_open_blow_foot_defrost",
+              "funcName": "openBlowFootDefrost",
+              "staticString": "OPEN_BLOW_FOOT_DEFROST",
+              "标签": "打开吹脚除霜"
+            }
+          ],
+          "交互逻辑": "控制空调系统并打开吹脚吹霜",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_automatic_opening": [
+            "automatic opening"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_automatic_opening",
+              "funcName": "automaticOpening",
+              "staticString": "AUTOMATIC_OPENING",
+              "标签": "打开自动"
+            }
+          ],
+          "交互逻辑": "打开空调自动模式",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      }
+    ]
+  },
+  "车身控制: CarBodyControlCommand": {
+    "功能模块": [
+      {
+        "语音指令": {
+          "cmd_open_sunroof": [
+            "open sunroof"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_open_sunroof",
+              "funcName": "openSunroof",
+              "staticString": "OPEN_SUNROOF",
+              "标签": "打开天窗"
+            }
+          ],
+          "交互逻辑": "控制天窗并打开",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_close_sunroof": [
+            "close sunroof"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_close_sunroof",
+              "funcName": "closeSunroof",
+              "staticString": "CLOSE_SUNROOF",
+              "标签": "关闭天窗"
+            }
+          ],
+          "交互逻辑": "控制天窗并关闭",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_open_windows": [
+            "open the windows"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_open_windows",
+              "funcName": "openWindows",
+              "staticString": "OPEN_WINDOWS",
+              "标签": "打开车窗"
+            }
+          ],
+          "交互逻辑": "打开所有车窗",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_close_windows": [
+            "close the windows"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_close_windows",
+              "funcName": "closeWindows",
+              "staticString": "CLOSE_WINDOWS",
+              "标签": "关闭车窗"
+            }
+          ],
+          "交互逻辑": "打开所有车窗",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      }
+    ]
+  },
+  "app控制（桌面上有安装的应用都行）: AppControlCommand": {
+    "功能模块": [
+      {
+        "语音指令": {
+          "cmd_open_app": [
+            "如：open Assist touch"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_open_app",
+              "funcName": "openApp",
+              "staticString": "OPEN_APP",
+              "标签": "打开app"
+            }
+          ],
+          "交互逻辑": "打开用户指定的app",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      },
+      {
+        "语音指令": {
+          "cmd_close_app": [
+            "如：close Assist touch"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_close_app",
+              "funcName": "closeApp",
+              "staticString": "CLOSE_APP",
+              "标签": "关闭app"
+            }
+          ],
+          "交互逻辑": "关闭应用并退出界面",
+          "反馈语": "Alright | At your command\nGot it | No problem | OK",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      }
+    ]
+  },
+  "识别界面: RecognitionInterfaceCommand": {
+    "功能模块": [
+      {
+        "语音指令": {
+          "cmd_cancel_exit": [
+            "Cancel",
+            "Exit",
+            "Quit"
+          ]
+        },
+        "info": {
+          "标识": [
+            {
+              "cmd": "cmd_cancel_exit",
+              "funcName": "cancelOrExit",
+              "staticString": "CANCEL_EXIT",
+              "标签": "取消｜退出"
+            }
+          ],
+          "交互逻辑": "退出语音页面",
+          "反馈语": "Bye | Continuing to serve you | See you next time | Goodbye | Don't forget me | Call me if you need anything",
+          "异常处理情况": "无"
+        },
+        "其他": {}
+      }
+    ]
+  }
+}

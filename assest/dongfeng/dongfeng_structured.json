@@ -1,0 +1,442 @@
+{
+    "音乐控制": {
+        "功能模块": [
+            {
+                "功能模块": "播放音乐",
+                "语音命令内容": "Play music",
+                "交互逻辑": "打开音乐界面",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "关闭音乐",
+                "语音命令内容": "Close music",
+                "交互逻辑": "停止播放并退出界面",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "上一曲",
+                "语音命令内容": "Previous track",
+                "交互逻辑": "执行播放上一曲操作",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "下一曲",
+                "语音命令内容": "Next track",
+                "交互逻辑": "执行播放下一曲操作",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "继续播放",
+                "语音命令内容": "Resume play",
+                "交互逻辑": "继续播放",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "暂停播放",
+                "语音命令内容": "Pause music",
+                "交互逻辑": "暂停播放",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            }
+        ]
+    },
+    "返回桌面": {
+        "功能模块": [
+            {
+                "功能模块": "返回桌面",
+                "语音命令内容": "Homepage",
+                "交互逻辑": "跳转至桌面",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            }
+        ]
+    },
+    "视频控制": {
+        "功能模块": [
+            {
+                "功能模块": "播放视频",
+                "语音命令内容": "Open video",
+                "交互逻辑": "打开视频app界面",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "关闭视频",
+                "语音命令内容": "Close video",
+                "交互逻辑": "停止播放并退出界面",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            }
+        ]
+    },
+    "收音机控制": {
+        "功能模块": [
+            {
+                "功能模块": "打开收音机",
+                "语音命令内容": "Open radio",
+                "交互逻辑": "打开系统收音机界面并播放",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "关闭收音机",
+                "语音命令内容": "Close radio",
+                "交互逻辑": "关闭收音机并返回桌面",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "向前搜索",
+                "语音命令内容": "Scan forward",
+                "交互逻辑": "执行播放上一个频道操作。",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "上一频道",
+                "语音命令内容": "Previous channel",
+                "交互逻辑": "执行播放上一个频道操作。",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "向后搜索",
+                "语音命令内容": "Scan back",
+                "交互逻辑": "执行播放下一个频道操作。",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "下一频道",
+                "语音命令内容": "Next channel",
+                "交互逻辑": "执行播放下一个频道操作。",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            }
+        ]
+    },
+    "蓝牙控制": {
+        "功能模块": [
+            {
+                "功能模块": "打开蓝牙",
+                "语音命令内容": "Open bluetooth",
+                "交互逻辑": "跳转至蓝牙界面且打开蓝牙",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "关闭蓝牙",
+                "语音命令内容": "Close bluetooth",
+                "交互逻辑": "跳转至蓝牙界面且关闭蓝牙",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            }
+        ]
+    },
+    "设置和wifi": {
+        "功能模块": [
+            {
+                "功能模块": "打开设置",
+                "语音命令内容": "Open settings",
+                "交互逻辑": "跳转至设置界面且打开设置",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "关闭设置",
+                "语音命令内容": "Close settings",
+                "交互逻辑": "跳转至设置界面且关闭设置",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "打开WIFI",
+                "语音命令内容": "Turn on wifi",
+                "交互逻辑": "跳转至WIFI界面且打开WIFI",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "关闭WIFI",
+                "语音命令内容": "Turn off wifi",
+                "交互逻辑": "跳转至WIFI界面且关闭WIFI",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            }
+        ]
+    },
+    "音量控制": {
+        "功能模块": [
+            {
+                "功能模块": "静音",
+                "语音命令内容": "Mute volume",
+                "交互逻辑": "控制系统音量且关闭音量",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "取消静音",
+                "语音命令内容": "Unmute volume",
+                "交互逻辑": "控制系统音量且打开音量",
+                "反馈语": "Sound is on | Mute is off | Sound is enabled "
+            },
+            {
+                "功能模块": "音量调大",
+                "语音命令内容": "Volume up",
+                "交互逻辑": "控制系统音量且调高音量",
+                "反馈语": "Volume increased | Volume raised"
+            },
+            {
+                "功能模块": "音量调小",
+                "语音命令内容": "Volume down",
+                "交互逻辑": "控制系统音量且调低音量",
+                "反馈语": "Volume decreased | Volume lowered"
+            }
+        ]
+    },
+    "空调控制": {
+        "功能模块": [
+            {
+                "功能模块": "打开空调",
+                "语音命令内容": "open the air conditioning",
+                "交互逻辑": "控制空调系统并执行打开空调操作",
+                "反馈语": "Air conditioner is on"
+            },
+            {
+                "功能模块": "关闭空调",
+                "语音命令内容": "close the air conditioning",
+                "交互逻辑": "控制空调系统并执行关闭空调操作",
+                "反馈语": "Air conditioner is off"
+            },
+            {
+                "功能模块": "调高温度",
+                "语音命令内容": "turn up the temperature",
+                "交互逻辑": "控制空调系统并调高温度一度",
+                "反馈语": "Temperature increased"
+            },
+            {
+                "功能模块": "调低温度",
+                "语音命令内容": "turn down the temperature",
+                "交互逻辑": "控制空调系统并调低温度一度",
+                "反馈语": "Temperature decreased"
+            },
+            {
+                "功能模块": "最高温度",
+                "语音命令内容": "maximum temperature",
+                "交互逻辑": "控制空调系统并调至最高温度",
+                "反馈语": "Temperature set to maximum"
+            },
+            {
+                "功能模块": "最低温度",
+                "语音命令内容": "lowest temperature",
+                "交互逻辑": "控制空调系统并调至最低温度",
+                "反馈语": "Temperature set to minimum"
+            },
+            {
+                "功能模块": "提高风速",
+                "语音命令内容": "increasing the wind speed",
+                "交互逻辑": "控制空调系统并调高风速一档",
+                "反馈语": "Fan speed increased"
+            },
+            {
+                "功能模块": "降低风速",
+                "语音命令内容": "decreasing the wind speed",
+                "交互逻辑": "控制空调系统并调低风速一档",
+                "反馈语": "Fan speed decreased"
+            },
+            {
+                "功能模块": "最大风速",
+                "语音命令内容": "maximum wind speed",
+                "交互逻辑": "控制空调系统并调至最高风速",
+                "反馈语": "Fan speed set to maximum"
+            },
+            {
+                "功能模块": "最小风速",
+                "语音命令内容": "minimum wind speed",
+                "交互逻辑": "控制空调系统并调至最低风速",
+                "反馈语": "Fan speed set to minimum"
+            },
+            {
+                "功能模块": "打开内循环",
+                "语音命令内容": "open inner circulation",
+                "交互逻辑": "控制空调系统并打开内循环",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "关闭内循环",
+                "语音命令内容": "close inner circulation",
+                "交互逻辑": "控制空调系统并关闭内循环",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "空调调到十六度",
+                "语音命令内容": "set sixteen degrees",
+                "交互逻辑": "控制空调系统并调到指定（X）温度",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "空调调到十七度",
+                "语音命令内容": "set seventeen degrees",
+                "交互逻辑": "控制空调系统并调到指定（X）温度",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "空调调到十八度",
+                "语音命令内容": "set eighteen degrees",
+                "交互逻辑": "控制空调系统并调到指定（X）温度",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "空调调到十九度",
+                "语音命令内容": "set nineteen degrees",
+                "交互逻辑": "控制空调系统并调到指定（X）温度",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "空调调到二十度",
+                "语音命令内容": "set twenty degrees",
+                "交互逻辑": "控制空调系统并调到指定（X）温度",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "空调调到二十一度",
+                "语音命令内容": "set twenty one degrees",
+                "交互逻辑": "控制空调系统并调到指定（X）温度",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "空调调到二十二度",
+                "语音命令内容": "set twenty two degrees",
+                "交互逻辑": "控制空调系统并调到指定（X）温度",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "空调调到二十三度",
+                "语音命令内容": "set twenty three degrees",
+                "交互逻辑": "控制空调系统并调到指定（X）温度",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "空调调到二十四度",
+                "语音命令内容": "set twenty four degrees",
+                "交互逻辑": "控制空调系统并调到指定（X）温度",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "空调调到二十五度",
+                "语音命令内容": "set twenty five degrees",
+                "交互逻辑": "控制空调系统并调到指定（X）温度",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "空调调到二十六度",
+                "语音命令内容": "set twenty six degrees",
+                "交互逻辑": "控制空调系统并调到指定（X）温度",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "空调调到二十七度",
+                "语音命令内容": "set twenty seven degrees",
+                "交互逻辑": "控制空调系统并调到指定（X）温度",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "空调调到二十八度",
+                "语音命令内容": "set twenty eight degrees",
+                "交互逻辑": "控制空调系统并调到指定（X）温度",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "空调调到二十九度",
+                "语音命令内容": "set twenty nine degrees",
+                "交互逻辑": "控制空调系统并调到指定（X）温度",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "空调调到三十度",
+                "语音命令内容": "set thirty degrees",
+                "交互逻辑": "控制空调系统并调到指定（X）温度",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "打开前除霜",
+                "语音命令内容": "defrosting before opening",
+                "交互逻辑": "控制空调系统并打开前除霜",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "关闭前除霜",
+                "语音命令内容": "defrosting before closure",
+                "交互逻辑": "控制空调系统并前关闭除霜",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "打开吹面",
+                "语音命令内容": "open the blow surface",
+                "交互逻辑": "控制空调系统并打开吹面",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "打开吹面吹脚",
+                "语音命令内容": "open the blowing surface and blow the foot",
+                "交互逻辑": "控制空调系统并打开吹面吹脚",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "打开吹脚",
+                "语音命令内容": "open your feet",
+                "交互逻辑": "控制空调系统并打开吹脚",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "打开吹脚除霜",
+                "语音命令内容": "open the blow-foot defrost",
+                "交互逻辑": "控制空调系统并打开吹脚吹霜",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "打开自动",
+                "语音命令内容": "automatic opening",
+                "交互逻辑": "打开空调自动模式",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            }
+        ]
+    },
+    "车身控制": {
+        "功能模块": [
+            {
+                "功能模块": "打开天窗",
+                "语音命令内容": "open sunroof",
+                "交互逻辑": "控制天窗并打开",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "关闭天窗",
+                "语音命令内容": "close sunroof",
+                "交互逻辑": "控制天窗并关闭",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "打开车窗",
+                "语音命令内容": "open the windows",
+                "交互逻辑": "打开所有车窗",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "关闭车窗",
+                "语音命令内容": "close the windows",
+                "交互逻辑": "打开所有车窗",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            }
+        ]
+    },
+    "app控制（桌面上有安装的应用都行）": {
+        "功能模块": [
+            {
+                "功能模块": "打开app",
+                "语音命令内容": "如：open Assist touch",
+                "交互逻辑": "打开用户指定的app",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            },
+            {
+                "功能模块": "关闭app",
+                "语音命令内容": "如：close Assist touch ",
+                "交互逻辑": "关闭应用并退出界面",
+                "反馈语": "Alright |  At your command\nGot it | No problem | OK"
+            }
+        ]
+    },
+    "识别界面": {
+        "功能模块": [
+            {
+                "功能模块": "取消｜退出",
+                "语音命令内容": "Cancel | Exit | Quit",
+                "交互逻辑": "退出语音页面",
+                "反馈语": "Bye | Continuing to serve you | See you next time | Goodbye | Don't forget me | Call me if you need anything"
+            }
+        ]
+    }
+}

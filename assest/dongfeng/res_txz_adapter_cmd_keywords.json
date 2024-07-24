@@ -1,0 +1,202 @@
+{
+    "cmd_open_bluetooth": [
+        "Open bluetooth"
+    ],
+    "cmd_close_bluetooth": [
+        "Close bluetooth"
+    ],
+    "cmd_play_music": [
+        "Play music"
+    ],
+    "cmd_close_music": [
+        "Close music"
+    ],
+    "cmd_previous_track": [
+        "Previous track"
+    ],
+    "cmd_next_track": [
+        "Next track"
+    ],
+    "cmd_resume_play": [
+        "Resume play"
+    ],
+    "cmd_pause_music": [
+        "Pause music"
+    ],
+    "cmd_return_home": [
+        "Homepage"
+    ],
+    "cmd_open_video": [
+        "Open video"
+    ],
+    "cmd_close_video": [
+        "Close video"
+    ],
+    "cmd_open_radio": [
+        "Open radio"
+    ],
+    "cmd_close_radio": [
+        "Close radio"
+    ],
+    "cmd_scan_forward": [
+        "Scan forward"
+    ],
+    "cmd_previous_channel": [
+        "Previous channel"
+    ],
+    "cmd_scan_back": [
+        "Scan back"
+    ],
+    "cmd_next_channel": [
+        "Next channel"
+    ],
+    "cmd_open_settings": [
+        "Open settings"
+    ],
+    "cmd_close_settings": [
+        "Close settings"
+    ],
+    "cmd_turn_on_wifi": [
+        "Turn on wifi"
+    ],
+    "cmd_turn_off_wifi": [
+        "Turn off wifi"
+    ],
+    "cmd_mute_volume": [
+        "Mute volume"
+    ],
+    "cmd_unmute_volume": [
+        "Unmute volume"
+    ],
+    "cmd_volume_up": [
+        "Volume up"
+    ],
+    "cmd_volume_down": [
+        "Volume down"
+    ],
+    "cmd_open_air_conditioning": [
+        "open the air conditioning"
+    ],
+    "cmd_close_air_conditioning": [
+        "close the air conditioning"
+    ],
+    "cmd_turn_up_temperature": [
+        "turn up the temperature"
+    ],
+    "cmd_turn_down_temperature": [
+        "turn down the temperature"
+    ],
+    "cmd_maximum_temperature": [
+        "maximum temperature"
+    ],
+    "cmd_minimum_temperature": [
+        "minimum temperature"
+    ],
+    "cmd_increasing_wind_speed": [
+        "increasing the wind speed"
+    ],
+    "cmd_decreasing_wind_speed": [
+        "decreasing the wind speed"
+    ],
+    "cmd_maximum_wind_speed": [
+        "maximum wind speed"
+    ],
+    "cmd_minimum_wind_speed": [
+        "minimum wind speed"
+    ],
+    "cmd_open_inner_circulation": [
+        "open inner circulation"
+    ],
+    "cmd_close_inner_circulation": [
+        "close inner circulation"
+    ],
+    "cmd_set_sixteen_degrees": [
+        "set sixteen degrees"
+    ],
+    "cmd_set_seventeen_degrees": [
+        "set seventeen degrees"
+    ],
+    "cmd_set_eighteen_degrees": [
+        "set eighteen degrees"
+    ],
+    "cmd_set_nineteen_degrees": [
+        "set nineteen degrees"
+    ],
+    "cmd_set_twenty_degrees": [
+        "set twenty degrees"
+    ],
+    "cmd_set_twenty_one_degrees": [
+        "set twenty one degrees"
+    ],
+    "cmd_set_twenty_two_degrees": [
+        "set twenty two degrees"
+    ],
+    "cmd_set_twenty_three_degrees": [
+        "set twenty three degrees"
+    ],
+    "cmd_set_twenty_four_degrees": [
+        "set twenty four degrees"
+    ],
+    "cmd_set_twenty_five_degrees": [
+        "set twenty five degrees"
+    ],
+    "cmd_set_twenty_six_degrees": [
+        "set twenty six degrees"
+    ],
+    "cmd_set_twenty_seven_degrees": [
+        "set twenty seven degrees"
+    ],
+    "cmd_set_twenty_eight_degrees": [
+        "set twenty eight degrees"
+    ],
+    "cmd_set_twenty_nine_degrees": [
+        "set twenty nine degrees"
+    ],
+    "cmd_set_thirty_degrees": [
+        "set thirty degrees"
+    ],
+    "cmd_defrosting_before_opening": [
+        "defrosting before opening"
+    ],
+    "cmd_defrosting_before_closure": [
+        "defrosting before closure"
+    ],
+    "cmd_open_blow_surface": [
+        "open the blow surface"
+    ],
+    "cmd_open_blow_surface_and_foot": [
+        "open the blowing surface and blow the foot"
+    ],
+    "cmd_open_blow_foot": [
+        "open your feet"
+    ],
+    "cmd_open_blow_foot_defrost": [
+        "open the blow-foot defrost"
+    ],
+    "cmd_automatic_opening": [
+        "automatic opening"
+    ],
+    "cmd_open_sunroof": [
+        "open sunroof"
+    ],
+    "cmd_close_sunroof": [
+        "close sunroof"
+    ],
+    "cmd_open_windows": [
+        "open the windows"
+    ],
+    "cmd_close_windows": [
+        "close the windows"
+    ],
+    "cmd_open_app": [
+        "如：open Assist touch"
+    ],
+    "cmd_close_app": [
+        "如：close Assist touch"
+    ],
+    "cmd_cancel_exit": [
+        "Cancel",
+        "Exit",
+        "Quit"
+    ]
+}
