@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4747d3cded67bcf9",
+            "id": "0f7fcda58eaa2d38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "log/2024-07-23.md",
+                "file": "log/2024-07-26.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "log/2024-07-23.md",
+                "file": "log/2024-07-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "log/2024-07-23.md",
+                "file": "log/2024-07-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "log/2024-07-23.md"
+                "file": "log/2024-07-26.md"
               }
             }
           }
@@ -134,60 +135,59 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "980e21d729854bd7",
+  "active": "0f7fcda58eaa2d38",
   "lastOpenFiles": [
-    "assest/dongfeng/TTSSERVICE.apk",
-    "assest/dongfeng/TTSSERVICE_v3.1.2_95.apk",
-    "assest/dongfeng/res_txz_adapter_cmd_keywords.json",
-    "assest/dongfeng/ommpa.json",
-    "assest/dongfeng/resume.json",
-    "assest/dongfeng/新建 文本文档.txt",
-    "assest/dongfeng/dongfeng_structured.json",
-    "assest/陕汽德龙x6000英文指令表20240715~CBD07.tmp",
-    "assest/陕汽德龙x6000英文指令表20240715~53411.tmp",
-    "assest/陕汽德龙x6000英文指令表20240715~4F5B0.tmp",
+    "log/2024-07-26.md",
     "assest/~$20240626-解放项目-语音指令表-v1.0.1.xlsx",
-    "log/2024-07-22.md",
-    "log/2024-07-23.md",
-    "24航天/航天待办.md",
     "tamplate/24七八九月份.md",
-    "24航天/航天青岛问题反馈.canvas",
-    "科大.canvas",
+    "tamplate",
+    "log/2024-07-23.md",
+    "assest/dongfeng/resume.json",
+    "assest/dongfeng/res_txz_adapter_cmd_keywords.json",
+    "assest/dongfeng/dongfeng_structured.json",
+    "assest/dongfeng/TTSSample.zip",
+    "assest/dongfeng/TTSSERVICE.apk",
+    "assest/dongfeng/TTSSERVICE 使用说明.docx",
+    "assest/dongfeng",
     "conflict-files-obsidian-git.md",
+    "log/2024-07-22.md",
+    "log/2024-07-20~21安排.md",
+    "assest/Pasted image 20240711172529.png",
+    "assest/~$20240626-解放项目-问题反馈.xlsx",
+    "24航天/航天待办.md",
+    "24航天/航天青岛问题反馈.canvas",
+    "Excalidraw/Drawing 2024-07-18 07.59.41.excalidraw.md",
     "24东风/东风SDK.canvas",
     "24东风/assest/Pasted image 20240719102907.png",
     "24东风/assest/Pasted image 20240719102746.png",
-    "Excalidraw/Drawing 2024-07-18 07.59.41.excalidraw.md",
     "log/2024-07-18.md",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-xxhdpi-v4/ic_launcher.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-xxhdpi-v4/ic_launcher_round.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-xxxhdpi-v4/ic_launcher_round.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-xxxhdpi-v4/ic_launcher.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-xhdpi-v4/ic_launcher_round.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-xhdpi-v4/ic_launcher.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-mdpi-v4/ic_launcher_round.webp",
-    "assest/api_24_dongfeng/app/build/intermediates/packaged_res/release/mipmap-mdpi-v4/ic_launcher.webp",
-    "log/2024-07-20~21安排.md",
-    "log/2024-07-17.md",
-    "log/2024-07-16.md",
-    "log/2024-07-15.md",
+    "2024-07-20~21安排.md",
+    "科大.canvas",
     "log/2024-07-12.md",
+    "log/2024-07-15.md",
+    "log/2024-07-16.md",
+    "log/2024-07-17.md",
+    "log/assets/image-20240716120722564.png",
+    "航天青岛问题反馈.canvas",
     "canvas/东风延擎.canvas",
+    "assest/Pasted image 20240711195526.png",
+    "canvas/assest/Pasted image 20240710172906.png",
     "2024-07-10.md",
+    "Pasted image 20240710172613.png",
+    "Pasted image 20240710172544.png",
     "Welcome.md"
   ]
 }
