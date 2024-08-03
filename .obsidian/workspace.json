@@ -11,8 +11,12 @@
             "id": "0f7fcda58eaa2d38",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "log/2024-07-23.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -61,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "log/2024-07-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "log/2024-07-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "log/2024-07-23.md"
+              }
             }
           }
         ],
@@ -143,6 +150,10 @@
   },
   "active": "0f7fcda58eaa2d38",
   "lastOpenFiles": [
+    "log/2024-07-18.md",
+    "log/2024-07-17.md",
+    "log/2024-07-16.md",
+    "log/2024-07-15.md",
     "log/2024-07-28.md",
     "log/2024-07-26.md",
     "assest/~$20240626-解放项目-语音指令表-v1.0.1.xlsx",
@@ -167,13 +178,9 @@
     "24东风/东风SDK.canvas",
     "24东风/assest/Pasted image 20240719102907.png",
     "24东风/assest/Pasted image 20240719102746.png",
-    "log/2024-07-18.md",
     "2024-07-20~21安排.md",
     "科大.canvas",
     "log/2024-07-12.md",
-    "log/2024-07-15.md",
-    "log/2024-07-16.md",
-    "log/2024-07-17.md",
     "log/assets/image-20240716120722564.png",
     "航天青岛问题反馈.canvas",
     "canvas/东风延擎.canvas",
