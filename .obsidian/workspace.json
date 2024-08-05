@@ -11,8 +11,12 @@
             "id": "0f7fcda58eaa2d38",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "log/2024-08-02.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -61,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "log/2024-08-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "log/2024-08-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "log/2024-08-02.md"
+              }
             }
           }
         ],
@@ -137,30 +144,30 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "command-palette:打开命令面板": false
     }
   },
   "active": "0f7fcda58eaa2d38",
   "lastOpenFiles": [
     "log/2024-07-28.md",
+    "log/2024-08-02.md",
+    "assest/20240624-科大物联-上汽大众协议表(2)~3E0E3.tmp",
+    "assest/20240624-科大物联-上汽大众协议表(2)~C9DD4.tmp",
+    "log/2024-07-23.md",
+    "log/2024-07-22.md",
     "log/2024-07-26.md",
     "assest/~$20240626-解放项目-语音指令表-v1.0.1.xlsx",
     "tamplate/24七八九月份.md",
     "tamplate",
-    "log/2024-07-23.md",
     "assest/dongfeng/resume.json",
     "assest/dongfeng/res_txz_adapter_cmd_keywords.json",
     "assest/dongfeng/dongfeng_structured.json",
     "assest/dongfeng/TTSSample.zip",
     "assest/dongfeng/TTSSERVICE.apk",
     "assest/dongfeng/TTSSERVICE 使用说明.docx",
-    "assest/dongfeng",
     "conflict-files-obsidian-git.md",
-    "log/2024-07-22.md",
     "log/2024-07-20~21安排.md",
     "assest/Pasted image 20240711172529.png",
-    "assest/~$20240626-解放项目-问题反馈.xlsx",
     "24航天/航天待办.md",
     "24航天/航天青岛问题反馈.canvas",
     "Excalidraw/Drawing 2024-07-18 07.59.41.excalidraw.md",
