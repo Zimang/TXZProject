@@ -144,20 +144,22 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "0f7fcda58eaa2d38",
   "lastOpenFiles": [
-    "log/2024-07-28.md",
+    "conflict-files-obsidian-git.md",
     "log/2024-08-02.md",
+    "tamplate/24七八九月份.md",
+    "log/2024-07-28.md",
     "assest/20240624-科大物联-上汽大众协议表(2)~3E0E3.tmp",
     "assest/20240624-科大物联-上汽大众协议表(2)~C9DD4.tmp",
     "log/2024-07-23.md",
     "log/2024-07-22.md",
     "log/2024-07-26.md",
     "assest/~$20240626-解放项目-语音指令表-v1.0.1.xlsx",
-    "tamplate/24七八九月份.md",
     "tamplate",
     "assest/dongfeng/resume.json",
     "assest/dongfeng/res_txz_adapter_cmd_keywords.json",
@@ -165,7 +167,6 @@
     "assest/dongfeng/TTSSample.zip",
     "assest/dongfeng/TTSSERVICE.apk",
     "assest/dongfeng/TTSSERVICE 使用说明.docx",
-    "conflict-files-obsidian-git.md",
     "log/2024-07-20~21安排.md",
     "assest/Pasted image 20240711172529.png",
     "24航天/航天待办.md",
