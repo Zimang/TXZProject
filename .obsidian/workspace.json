@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8554ac0e9bd01d22",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-08-05 20.11.18.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 213.5
   },
   "right": {
     "id": "6b24aed06d6c8a1f",
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "log/2024-08-02.md",
+                "file": "Excalidraw/Drawing 2024-08-05 20.11.18.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "log/2024-08-02.md",
+                "file": "Excalidraw/Drawing 2024-08-05 20.11.18.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "log/2024-08-02.md"
+                "file": "Excalidraw/Drawing 2024-08-05 20.11.18.excalidraw.md"
               }
             }
           }
@@ -148,10 +159,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0f7fcda58eaa2d38",
+  "active": "8554ac0e9bd01d22",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "log/2024-08-02.md",
+    "Excalidraw/Drawing 2024-08-05 20.11.18.excalidraw.md",
+    "conflict-files-obsidian-git.md",
     "tamplate/24七八九月份.md",
     "log/2024-07-28.md",
     "assest/20240624-科大物联-上汽大众协议表(2)~3E0E3.tmp",
